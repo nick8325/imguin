@@ -45,18 +45,20 @@ endif
 IMGUIN_DIR = ../../../imguin
 
 .PHONY: wordReplacer$(EXE) glfw sdl gen
-.PHONY: $(IMGUIN_DIR)/glfw_opengl_cimguiDefs.nim $(IMGUIN_DIR)/sdl2_opengl_cimguiDefs.nim
-.PHONY: cleanGlfw cleanSdl
+.PHONY: $(IMGUIN_DIR)/glfw_opengl_cimguiDefs.nim $(IMGUIN_DIR)/sdl2_opengl_cimguiDefs.nim $(IMGUIN_DIR)/nimsdl2_opengl_cimguiDefs.nim
+.PHONY: cleanGlfw cleanSdl cleanNimsdl
 
 all:  clean wordReplacer$(EXE) \
 			cimgui_update \
 			$(IMGUIN_DIR)/glfw_opengl_cimguiDefs.nim \
-			$(IMGUIN_DIR)/sdl2_opengl_cimguiDefs.nim
+			$(IMGUIN_DIR)/sdl2_opengl_cimguiDefs.nim \
+			$(IMGUIN_DIR)/nimsdl2_opengl_cimguiDefs.nim
 
 # First do manual update cimgui/cimplot/cimnodes and regeneration *defs.nim file
-gen:  clean glfw sdl
-glfw: cleanGlfw $(IMGUIN_DIR)/glfw_opengl_cimguiDefs.nim
-sdl:  cleanSdl  $(IMGUIN_DIR)/sdl2_opengl_cimguiDefs.nim
+gen:     clean glfw sdl
+glfw:    cleanGlfw $(IMGUIN_DIR)/glfw_opengl_cimguiDefs.nim
+sdl:     cleanSdl  $(IMGUIN_DIR)/sdl2_opengl_cimguiDefs.nim
+nimsdl:  cleanNimSdl  $(IMGUIN_DIR)/nimsdl2_opengl_cimguiDefs.nim
 
 wordReplacer$(EXE): wordReplacer.nim
 	nim c -d:release   $<
@@ -68,6 +70,11 @@ $(IMGUIN_DIR)/glfw_opengl_cimguiDefs.nim:
 
 $(IMGUIN_DIR)/sdl2_opengl_cimguiDefs.nim:
 	nim c -f -c  $(OPT) --nimcache:.nimcache_$(notdir $@) $(IMGUIN_DIR)/sdl2_opengl.nim
+	./wordReplacer$(EXE) $(notdir $@)
+	$(MV) $(notdir $@) $@
+
+$(IMGUIN_DIR)/nimsdl2_opengl_cimguiDefs.nim:
+	nim c -f -c  $(OPT) --nimcache:.nimcache_$(notdir $@) $(IMGUIN_DIR)/nimsdl2_opengl.nim
 	./wordReplacer$(EXE) $(notdir $@)
 	$(MV) $(notdir $@) $@
 
@@ -84,7 +91,9 @@ cleanGlfw:
 	-$(CMD) rmdir /q /s .nimcache_glfw_opengl_cimguiDefs.nim
 cleanSdl:
 	-$(CMD) rmdir /q /s .nimcache_sdl2_opengl_cimguiDefs.nim
-clean: cleanGlfw cleanSdl
+cleanSdl:
+	-$(CMD) rmdir /q /s .nimcache_nimsdl2_opengl_cimguiDefs.nim
+clean: cleanGlfw cleanSdl cleanNimSdl
 	-$(CMD) rmdir /q /s .nimcache
 else
 clean:
