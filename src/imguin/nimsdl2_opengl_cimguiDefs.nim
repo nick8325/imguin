@@ -4032,7 +4032,7 @@ type
     Isstretch*: Imu8_520094479
 
   Sdlwindow_520095266 = structsdlwindow ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/generator/output/cimgui_impl.h:48:27
-  Sdlrenderer_520095268 = structsdlrenderer ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/generator/output/cimgui_impl.h:49:29
+  Sdlrenderer_520095268 = structsdlrenderer ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/generator/output/cimgui_impl.h:65:29
   Sdlevent_520095270 = unionsdlevent ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/generator/output/cimgui_impl.h:52:25
   tm_520095272 = structtm_520095275 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:11:19
   structtm_520095274 {.pure, inheritable, bycopy.} = object
@@ -23245,6 +23245,62 @@ when not declared(Imguiimplsdl2processevent):
 else:
   static :
     hint("Declaration of " & "Imguiimplsdl2processevent" &
+        " already exists, not redeclaring")
+when not declared(Imguiimplsdlrenderer2init):
+  proc Imguiimplsdlrenderer2init*(renderer: ptr Sdlrenderer_520095269): bool {.
+      cdecl, importc: "ImGui_ImplSDLRenderer2_Init".}
+else:
+  static :
+    hint("Declaration of " & "Imguiimplsdlrenderer2init" &
+        " already exists, not redeclaring")
+when not declared(Imguiimplsdlrenderer2shutdown):
+  proc Imguiimplsdlrenderer2shutdown*(): void {.cdecl,
+      importc: "ImGui_ImplSDLRenderer2_Shutdown".}
+else:
+  static :
+    hint("Declaration of " & "Imguiimplsdlrenderer2shutdown" &
+        " already exists, not redeclaring")
+when not declared(Imguiimplsdlrenderer2newframe):
+  proc Imguiimplsdlrenderer2newframe*(): void {.cdecl,
+      importc: "ImGui_ImplSDLRenderer2_NewFrame".}
+else:
+  static :
+    hint("Declaration of " & "Imguiimplsdlrenderer2newframe" &
+        " already exists, not redeclaring")
+when not declared(Imguiimplsdlrenderer2renderdrawdata):
+  proc Imguiimplsdlrenderer2renderdrawdata*(drawdata: ptr Imdrawdata_520094110): void {.
+      cdecl, importc: "ImGui_ImplSDLRenderer2_RenderDrawData".}
+else:
+  static :
+    hint("Declaration of " & "Imguiimplsdlrenderer2renderdrawdata" &
+        " already exists, not redeclaring")
+when not declared(Imguiimplsdlrenderer2createfontstexture):
+  proc Imguiimplsdlrenderer2createfontstexture*(): bool {.cdecl,
+      importc: "ImGui_ImplSDLRenderer2_CreateFontsTexture".}
+else:
+  static :
+    hint("Declaration of " & "Imguiimplsdlrenderer2createfontstexture" &
+        " already exists, not redeclaring")
+when not declared(Imguiimplsdlrenderer2destroyfontstexture):
+  proc Imguiimplsdlrenderer2destroyfontstexture*(): void {.cdecl,
+      importc: "ImGui_ImplSDLRenderer2_DestroyFontsTexture".}
+else:
+  static :
+    hint("Declaration of " & "Imguiimplsdlrenderer2destroyfontstexture" &
+        " already exists, not redeclaring")
+when not declared(Imguiimplsdlrenderer2createdeviceobjects):
+  proc Imguiimplsdlrenderer2createdeviceobjects*(): bool {.cdecl,
+      importc: "ImGui_ImplSDLRenderer2_CreateDeviceObjects".}
+else:
+  static :
+    hint("Declaration of " & "Imguiimplsdlrenderer2createdeviceobjects" &
+        " already exists, not redeclaring")
+when not declared(Imguiimplsdlrenderer2destroydeviceobjects):
+  proc Imguiimplsdlrenderer2destroydeviceobjects*(): void {.cdecl,
+      importc: "ImGui_ImplSDLRenderer2_DestroyDeviceObjects".}
+else:
+  static :
+    hint("Declaration of " & "Imguiimplsdlrenderer2destroydeviceobjects" &
         " already exists, not redeclaring")
 when not declared(Gimplot):
   var Gimplot* {.importc: "GImPlot".}: ptr Implotcontext_520095277

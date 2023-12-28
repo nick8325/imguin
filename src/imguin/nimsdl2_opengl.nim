@@ -31,6 +31,7 @@ when defined(useFuthark):
     #
     "cimgui.h"
     define "CIMGUI_USE_SDL2"
+    define "CIMGUI_USE_SDLRENDERER2"
     define "CIMGUI_USE_OPENGL3"
     "generator/output/cimgui_impl.h"
     #
