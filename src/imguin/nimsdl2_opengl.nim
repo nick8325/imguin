@@ -60,5 +60,5 @@ else:
     {.passL:"-lSDL2".}
   #
   const ImguiRootPath    = joinPath(CImguiRootPath,"imgui")
-  {.compile:joinPath(ImguiRootPath,"backends/imgui_impl_sdl2.cpp").}
+  {.compile:joinPath(ImguiRootPath,"backends/imgui_impl_sdlrenderer2.cpp").}
   include "sourceFiles.nim"
