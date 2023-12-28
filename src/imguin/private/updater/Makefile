@@ -84,6 +84,7 @@ cimgui_update:
 	($(CD_CIMGUI_DIR); git pull )
 	@# Change to the specified tag/branch
 	$(CHECK_OUT)
+	($(CD_CIMGUI_DIR); cd generator; ./generator.sh  -c "glfw opengl3 opengl2 sdl2 sdlrenderer2")
 	($(CD_CIMGUI_DIR); git submodule update --init --recursive)
 
 ifeq ($(OS),Windows_NT)

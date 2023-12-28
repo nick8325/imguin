@@ -1698,14 +1698,14 @@ else:
     hint("Declaration of " & "structimguidockrequest" &
         " already exists, not redeclaring")
 type
-  Imdrawchannel_520094101 = structimdrawchannel_520094104 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:44:30
+  Imdrawchannel_520094101 = structimdrawchannel_520094104 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:44:30
   structimdrawchannel_520094103 {.pure, inheritable, bycopy.} = object
-    internalcmdbuffer*: Imvectorimdrawcmd_520094675 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1191:8
+    internalcmdbuffer*: Imvectorimdrawcmd_520094675 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1191:8
     internalidxbuffer*: Imvectorimdrawidx_520094679
 
-  Imdrawcmd_520094105 = structimdrawcmd_520094108 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:45:26
+  Imdrawcmd_520094105 = structimdrawcmd_520094108 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:45:26
   structimdrawcmd_520094107 {.pure, inheritable, bycopy.} = object
-    Cliprect*: Imvec4_520094511 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1164:8
+    Cliprect*: Imvec4_520094511 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1164:8
     Textureid*: Imtextureid_520094471
     Vtxoffset*: cuint
     Idxoffset*: cuint
@@ -1713,9 +1713,9 @@ type
     Usercallback*: Imdrawcallback_520094667
     Usercallbackdata*: pointer
 
-  Imdrawdata_520094109 = structimdrawdata_520094112 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:46:27
+  Imdrawdata_520094109 = structimdrawdata_520094112 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:46:27
   structimdrawdata_520094111 {.pure, inheritable, bycopy.} = object
-    Valid*: bool             ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1255:8
+    Valid*: bool             ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1255:8
     Cmdlistscount*: cint
     Totalidxcount*: cint
     Totalvtxcount*: cint
@@ -1725,9 +1725,9 @@ type
     Framebufferscale*: Imvec2_520094507
     Ownerviewport*: ptr Imguiviewport_520094233
 
-  Imdrawlist_520094113 = structimdrawlist_520094116 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:47:27
+  Imdrawlist_520094113 = structimdrawlist_520094116 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:47:27
   structimdrawlist_520094115 {.pure, inheritable, bycopy.} = object
-    Cmdbuffer*: Imvectorimdrawcmd_520094675 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1235:8
+    Cmdbuffer*: Imvectorimdrawcmd_520094675 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1235:8
     Idxbuffer*: Imvectorimdrawidx_520094679
     Vtxbuffer*: Imvectorimdrawvert_520094695
     Flags*: Imdrawlistflags_520094421
@@ -1743,9 +1743,9 @@ type
     internalsplitter*: Imdrawlistsplitter_520094122
     internalfringescale*: cfloat
 
-  Imdrawlistshareddata_520094117 = structimdrawlistshareddata_520094120 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:48:37
+  Imdrawlistshareddata_520094117 = structimdrawlistshareddata_520094120 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:48:37
   structimdrawlistshareddata_520094119 {.pure, inheritable, bycopy.} = object
-    Texuvwhitepixel*: Imvec2_520094507 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1593:8
+    Texuvwhitepixel*: Imvec2_520094507 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1593:8
     Font*: ptr Imfont_520094130
     Fontsize*: cfloat
     Curvetessellationtol*: cfloat
@@ -1758,21 +1758,21 @@ type
     Circlesegmentcounts*: array[64'i64, Imu8_520094479]
     Texuvlines*: ptr Imvec4_520094511
 
-  Imdrawlistsplitter_520094121 = structimdrawlistsplitter_520094124 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:49:35
+  Imdrawlistsplitter_520094121 = structimdrawlistsplitter_520094124 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:49:35
   structimdrawlistsplitter_520094123 {.pure, inheritable, bycopy.} = object
-    internalcurrent*: cint   ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1198:8
+    internalcurrent*: cint   ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1198:8
     internalcount*: cint
     internalchannels*: Imvectorimdrawchannel_520094683
 
-  Imdrawvert_520094125 = structimdrawvert_520094128 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:50:27
+  Imdrawvert_520094125 = structimdrawvert_520094128 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:50:27
   structimdrawvert_520094127 {.pure, inheritable, bycopy.} = object
-    pos*: Imvec2_520094507   ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1174:8
+    pos*: Imvec2_520094507   ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1174:8
     uv*: Imvec2_520094507
     col*: Imu32_520094487
 
-  Imfont_520094129 = structimfont_520094132 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:51:23
+  Imfont_520094129 = structimfont_520094132 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:51:23
   structimfont_520094131 {.pure, inheritable, bycopy.} = object
-    Indexadvancex*: Imvectorfloat_520094739 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1356:8
+    Indexadvancex*: Imvectorfloat_520094739 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1356:8
     Fallbackadvancex*: cfloat
     Fontsize*: cfloat
     Indexlookup*: Imvectorimwchar_520094645
@@ -1793,9 +1793,9 @@ type
     Metricstotalsurface*: cint
     Used4kpagesmap*: array[2'i64, Imu8_520094479]
 
-  Imfontatlas_520094133 = structimfontatlas_520094136 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:52:28
+  Imfontatlas_520094133 = structimfontatlas_520094136 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:52:28
   structimfontatlas_520094135 {.pure, inheritable, bycopy.} = object
-    Flags*: Imfontatlasflags_520094423 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1327:8
+    Flags*: Imfontatlasflags_520094423 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1327:8
     Texid*: Imtextureid_520094471
     Texdesiredwidth*: cint
     Texglyphpadding*: cint
@@ -1818,13 +1818,13 @@ type
     Packidmousecursors*: cint
     Packidlines*: cint
 
-  Imfontbuilderio_520094137 = structimfontbuilderio_520094140 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:53:32
+  Imfontbuilderio_520094137 = structimfontbuilderio_520094140 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:53:32
   structimfontbuilderio_520094139 {.pure, inheritable, bycopy.} = object
-    Fontbuilderbuild*: proc (a0: ptr Imfontatlas_520094134): bool {.cdecl.} ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:3212:8
+    Fontbuilderbuild*: proc (a0: ptr Imfontatlas_520094134): bool {.cdecl.} ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:3212:8
   
-  Imfontconfig_520094141 = structimfontconfig_520094144 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:54:29
+  Imfontconfig_520094141 = structimfontconfig_520094144 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:54:29
   structimfontconfig_520094143 {.pure, inheritable, bycopy.} = object
-    Fontdata*: pointer       ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1267:8
+    Fontdata*: pointer       ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1267:8
     Fontdatasize*: cint
     Fontdataownedbyatlas*: bool
     Fontno*: cint
@@ -1845,9 +1845,9 @@ type
     Name*: array[40'i64, cschar]
     Dstfont*: ptr Imfont_520094130
 
-  Imfontglyph_520094145 = structimfontglyph_520094148 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:55:28
+  Imfontglyph_520094145 = structimfontglyph_520094148 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:55:28
   structimfontglyph_520094147 {.pure, inheritable, bycopy.} = object
-    Colored*: cuint          ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1290:8
+    Colored*: cuint          ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1290:8
     Visible*: cuint
     Codepoint*: cuint
     Advancex*: cfloat
@@ -1860,17 +1860,17 @@ type
     U1*: cfloat
     V1*: cfloat
 
-  Imfontglyphrangesbuilder_520094149 = structimfontglyphrangesbuilder_520094152 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:56:41
+  Imfontglyphrangesbuilder_520094149 = structimfontglyphrangesbuilder_520094152 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:56:41
   structimfontglyphrangesbuilder_520094151 {.pure, inheritable, bycopy.} = object
-    Usedchars*: Imvectorimu32_520094715 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1301:8
+    Usedchars*: Imvectorimu32_520094715 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1301:8
   
-  Imcolor_520094153 = structimcolor_520094156 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:57:24
+  Imcolor_520094153 = structimcolor_520094156 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:57:24
   structimcolor_520094155 {.pure, inheritable, bycopy.} = object
-    Value*: Imvec4_520094511 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1159:8
+    Value*: Imvec4_520094511 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1159:8
   
-  Imguicontext_520094157 = structimguicontext_520094160 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:10:29
+  Imguicontext_520094157 = structimguicontext_520094160 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:10:29
   structimguicontext_520094159 {.pure, inheritable, bycopy.} = object
-    Initialized*: bool       ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2498:8
+    Initialized*: bool       ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2498:8
     Fontatlasownedbycontext*: bool
     Io*: Imguiio_520094162
     Platformio*: Imguiplatformio_520094193
@@ -2139,9 +2139,9 @@ type
     Wanttextinputnextframe*: cint
     Tempbuffer*: Imvectorchar_520094657
 
-  Imguiio_520094161 = structimguiio_520094164 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:59:24
+  Imguiio_520094161 = structimguiio_520094164 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:59:24
   structimguiio_520094163 {.pure, inheritable, bycopy.} = object
-    Configflags*: Imguiconfigflags_520094433 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:949:8
+    Configflags*: Imguiconfigflags_520094433 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:949:8
     Backendflags*: Imguibackendflags_520094425
     Displaysize*: Imvec2_520094507
     Deltatime*: cfloat
@@ -2243,9 +2243,9 @@ type
     Inputqueuesurrogate*: Imwchar16_520094495
     Inputqueuecharacters*: Imvectorimwchar_520094645
 
-  Imguiinputtextcallbackdata_520094165 = structimguiinputtextcallbackdata_520094168 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:60:43
+  Imguiinputtextcallbackdata_520094165 = structimguiinputtextcallbackdata_520094168 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:60:43
   structimguiinputtextcallbackdata_520094167 {.pure, inheritable, bycopy.} = object
-    Ctx*: ptr Imguicontext_520094158 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1051:8
+    Ctx*: ptr Imguicontext_520094158 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1051:8
     Eventflag*: Imguiinputtextflags_520094445
     Flags*: Imguiinputtextflags_520094445
     Userdata*: pointer
@@ -2259,16 +2259,16 @@ type
     Selectionstart*: cint
     Selectionend*: cint
 
-  Imguikeydata_520094169 = structimguikeydata_520094172 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:61:29
+  Imguikeydata_520094169 = structimguikeydata_520094172 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:61:29
   structimguikeydata_520094171 {.pure, inheritable, bycopy.} = object
-    Down*: bool              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:940:8
+    Down*: bool              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:940:8
     Downduration*: cfloat
     Downdurationprev*: cfloat
     Analogvalue*: cfloat
 
-  Imguilistclipper_520094173 = structimguilistclipper_520094176 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:62:33
+  Imguilistclipper_520094173 = structimguilistclipper_520094176 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:62:33
   structimguilistclipper_520094175 {.pure, inheritable, bycopy.} = object
-    Ctx*: ptr Imguicontext_520094158 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1149:8
+    Ctx*: ptr Imguicontext_520094158 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1149:8
     Displaystart*: cint
     Displayend*: cint
     Itemscount*: cint
@@ -2276,13 +2276,13 @@ type
     Startposy*: cfloat
     Tempdata*: pointer
 
-  Imguionceuponaframe_520094177 = structimguionceuponaframe_520094180 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:63:36
+  Imguionceuponaframe_520094177 = structimguionceuponaframe_520094180 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:63:36
   structimguionceuponaframe_520094179 {.pure, inheritable, bycopy.} = object
-    Refframe*: cint          ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1109:8
+    Refframe*: cint          ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1109:8
   
-  Imguipayload_520094181 = structimguipayload_520094184 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:64:29
+  Imguipayload_520094181 = structimguipayload_520094184 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:64:29
   structimguipayload_520094183 {.pure, inheritable, bycopy.} = object
-    Data*: pointer           ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1085:8
+    Data*: pointer           ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1085:8
     Datasize*: cint
     Sourceid*: Imguiid_520094475
     Sourceparentid*: Imguiid_520094475
@@ -2291,9 +2291,9 @@ type
     Preview*: bool
     Delivery*: bool
 
-  Imguiplatformio_520094192 = structimguiplatformio_520094195 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:65:32
+  Imguiplatformio_520094192 = structimguiplatformio_520094195 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:65:32
   structimguiplatformio_520094194 {.pure, inheritable, bycopy.} = object
-    Platformcreatewindow*: proc (a0: ptr Imguiviewport_520094233): void {.cdecl.} ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1419:8
+    Platformcreatewindow*: proc (a0: ptr Imguiviewport_520094233): void {.cdecl.} ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1419:8
     Platformdestroywindow*: proc (a0: ptr Imguiviewport_520094233): void {.cdecl.}
     Platformshowwindow*: proc (a0: ptr Imguiviewport_520094233): void {.cdecl.}
     Platformsetwindowpos*: proc (a0: ptr Imguiviewport_520094233; a1: Imvec2_520094507): void {.
@@ -2337,35 +2337,35 @@ type
     Monitors*: Imvectorimguiplatformmonitor_520094751
     Viewports*: Imvectorimguiviewportptr_520094755
 
-  Imguiplatformmonitor_520094196 = structimguiplatformmonitor_520094199 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:66:37
+  Imguiplatformmonitor_520094196 = structimguiplatformmonitor_520094199 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:66:37
   structimguiplatformmonitor_520094198 {.pure, inheritable, bycopy.} = object
-    Mainpos*: Imvec2_520094507 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1447:8
+    Mainpos*: Imvec2_520094507 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1447:8
     Mainsize*: Imvec2_520094507
     Workpos*: Imvec2_520094507
     Worksize*: Imvec2_520094507
     Dpiscale*: cfloat
     Platformhandle*: pointer
 
-  Imguiplatformimedata_520094200 = structimguiplatformimedata_520094203 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:67:37
+  Imguiplatformimedata_520094200 = structimguiplatformimedata_520094203 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:67:37
   structimguiplatformimedata_520094202 {.pure, inheritable, bycopy.} = object
-    Wantvisible*: bool       ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1454:8
+    Wantvisible*: bool       ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1454:8
     Inputpos*: Imvec2_520094507
     Inputlineheight*: cfloat
 
-  Imguisizecallbackdata_520094204 = structimguisizecallbackdata_520094207 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:68:38
+  Imguisizecallbackdata_520094204 = structimguisizecallbackdata_520094207 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:68:38
   structimguisizecallbackdata_520094206 {.pure, inheritable, bycopy.} = object
-    Userdata*: pointer       ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1067:8
+    Userdata*: pointer       ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1067:8
     Pos*: Imvec2_520094507
     Currentsize*: Imvec2_520094507
     Desiredsize*: Imvec2_520094507
 
-  Imguistorage_520094208 = structimguistorage_520094211 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:69:29
+  Imguistorage_520094208 = structimguistorage_520094211 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:69:29
   structimguistorage_520094210 {.pure, inheritable, bycopy.} = object
-    Data*: Imvectorimguistoragepair_520094665 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1144:8
+    Data*: Imvectorimguistoragepair_520094665 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1144:8
   
-  Imguistyle_520094212 = structimguistyle_520094215 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:70:27
+  Imguistyle_520094212 = structimguistyle_520094215 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:70:27
   structimguistyle_520094214 {.pure, inheritable, bycopy.} = object
-    Alpha*: cfloat           ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:885:8
+    Alpha*: cfloat           ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:885:8
     Disabledalpha*: cfloat
     Windowpadding*: Imvec2_520094507
     Windowrounding*: cfloat
@@ -2418,32 +2418,32 @@ type
     Hoverflagsfortooltipmouse*: Imguihoveredflags_520094443
     Hoverflagsfortooltipnav*: Imguihoveredflags_520094443
 
-  Imguitablesortspecs_520094216 = structimguitablesortspecs_520094219 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:71:36
+  Imguitablesortspecs_520094216 = structimguitablesortspecs_520094219 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:71:36
   structimguitablesortspecs_520094218 {.pure, inheritable, bycopy.} = object
-    Specs*: ptr Imguitablecolumnsortspecs_520094221 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1103:8
+    Specs*: ptr Imguitablecolumnsortspecs_520094221 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1103:8
     Specscount*: cint
     Specsdirty*: bool
 
-  Imguitablecolumnsortspecs_520094220 = structimguitablecolumnsortspecs_520094223 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:72:42
+  Imguitablecolumnsortspecs_520094220 = structimguitablecolumnsortspecs_520094223 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:72:42
   structimguitablecolumnsortspecs_520094222 {.pure, inheritable, bycopy.} = object
-    Columnuserid*: Imguiid_520094475 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1096:8
+    Columnuserid*: Imguiid_520094475 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1096:8
     Columnindex*: Ims16_520094481
     Sortorder*: Ims16_520094481
     Sortdirection*: Imguisortdirection_520094413
 
-  Imguitextbuffer_520094224 = structimguitextbuffer_520094227 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:73:32
+  Imguitextbuffer_520094224 = structimguitextbuffer_520094227 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:73:32
   structimguitextbuffer_520094226 {.pure, inheritable, bycopy.} = object
-    Buf*: Imvectorchar_520094657 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1131:8
+    Buf*: Imvectorchar_520094657 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1131:8
   
-  Imguitextfilter_520094228 = structimguitextfilter_520094231 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:74:32
+  Imguitextfilter_520094228 = structimguitextfilter_520094231 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:74:32
   structimguitextfilter_520094230 {.pure, inheritable, bycopy.} = object
-    Inputbuf*: array[256'i64, cschar] ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1122:8
+    Inputbuf*: array[256'i64, cschar] ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1122:8
     Filters*: Imvectorimguitextrange_520094653
     Countgrep*: cint
 
-  Imguiviewport_520094232 = structimguiviewport_520094235 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:75:30
+  Imguiviewport_520094232 = structimguiviewport_520094235 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:75:30
   structimguiviewport_520094234 {.pure, inheritable, bycopy.} = object
-    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1395:8
+    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1395:8
     Flags*: Imguiviewportflags_520094467
     Pos*: Imvec2_520094507
     Size*: Imvec2_520094507
@@ -2461,9 +2461,9 @@ type
     Platformrequestresize*: bool
     Platformrequestclose*: bool
 
-  Imguiwindowclass_520094236 = structimguiwindowclass_520094239 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:76:33
+  Imguiwindowclass_520094236 = structimguiwindowclass_520094239 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:76:33
   structimguiwindowclass_520094238 {.pure, inheritable, bycopy.} = object
-    Classid*: Imguiid_520094475 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1074:8
+    Classid*: Imguiid_520094475 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1074:8
     Parentviewportid*: Imguiid_520094475
     Viewportflagsoverrideset*: Imguiviewportflags_520094467
     Viewportflagsoverrideclear*: Imguiviewportflags_520094467
@@ -2472,57 +2472,57 @@ type
     Dockingalwaystabbar*: bool
     Dockingallowunclassed*: bool
 
-  Imbitvector_520094240 = structimbitvector_520094243 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:77:28
+  Imbitvector_520094240 = structimbitvector_520094243 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:77:28
   structimbitvector_520094242 {.pure, inheritable, bycopy.} = object
-    Storage*: Imvectorimu32_520094715 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1580:8
+    Storage*: Imvectorimu32_520094715 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1580:8
   
-  Imrect_520094244 = structimrect_520094247 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:78:23
+  Imrect_520094244 = structimrect_520094247 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:78:23
   structimrect_520094246 {.pure, inheritable, bycopy.} = object
-    Min*: Imvec2_520094507   ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1574:8
+    Min*: Imvec2_520094507   ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1574:8
     Max*: Imvec2_520094507
 
-  Imdrawdatabuilder_520094248 = structimdrawdatabuilder_520094251 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:79:34
+  Imdrawdatabuilder_520094248 = structimdrawdatabuilder_520094251 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:79:34
   structimdrawdatabuilder_520094250 {.pure, inheritable, bycopy.} = object
-    Layers*: array[2'i64, ptr Imvectorimdrawlistptr_520094711] ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1608:8
+    Layers*: array[2'i64, ptr Imvectorimdrawlistptr_520094711] ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1608:8
     Layerdata1*: Imvectorimdrawlistptr_520094711
 
-  Imguicolormod_520094252 = structimguicolormod_520094255 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:80:30
+  Imguicolormod_520094252 = structimguicolormod_520094255 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:80:30
   structimguicolormod_520094254 {.pure, inheritable, bycopy.} = object
-    Col*: Imguicol_520094401 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1760:8
+    Col*: Imguicol_520094401 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1760:8
     Backupvalue*: Imvec4_520094511
 
-  Imguicontexthook_520094256 = structimguicontexthook_520094259 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:81:33
+  Imguicontexthook_520094256 = structimguicontexthook_520094259 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:81:33
   structimguicontexthook_520094258 {.pure, inheritable, bycopy.} = object
-    Hookid*: Imguiid_520094475 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2444:8
+    Hookid*: Imguiid_520094475 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2444:8
     Type*: Imguicontexthooktype_520095125
     Owner*: Imguiid_520094475
     Callback*: Imguicontexthookcallback_520095121
     Userdata*: pointer
 
-  Imguidatavarinfo_520094260 = structimguidatavarinfo_520094263 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:82:33
+  Imguidatavarinfo_520094260 = structimguidatavarinfo_520094263 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:82:33
   structimguidatavarinfo_520094262 {.pure, inheritable, bycopy.} = object
-    Type*: Imguidatatype_520094405 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1737:8
+    Type*: Imguidatatype_520094405 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1737:8
     Count*: Imu32_520094487
     Offset*: Imu32_520094487
 
-  Imguidatatypeinfo_520094264 = structimguidatatypeinfo_520094267 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:83:34
+  Imguidatatypeinfo_520094264 = structimguidatatypeinfo_520094267 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:83:34
   structimguidatatypeinfo_520094266 {.pure, inheritable, bycopy.} = object
-    Size*: csize_t           ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1748:8
+    Size*: csize_t           ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1748:8
     Name*: cstring
     Printfmt*: cstring
     Scanfmt*: cstring
 
-  Imguidockcontext_520094268 = structimguidockcontext_520094271 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:84:33
+  Imguidockcontext_520094268 = structimguidockcontext_520094271 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:84:33
   structimguidockcontext_520094270 {.pure, inheritable, bycopy.} = object
-    Nodes*: Imguistorage_520094209 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2298:8
+    Nodes*: Imguistorage_520094209 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2298:8
     Requests*: Imvectorimguidockrequest_520095083
     Nodessettings*: Imvectorimguidocknodesettings_520095087
     Wantfullrebuild*: bool
 
-  Imguidockrequest_520094272 = structimguidockrequest ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:85:33
-  Imguidocknode_520094274 = structimguidocknode_520094277 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:86:30
+  Imguidockrequest_520094272 = structimguidockrequest ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:85:33
+  Imguidocknode_520094274 = structimguidocknode_520094277 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:86:30
   structimguidocknode_520094276 {.pure, inheritable, bycopy.} = object
-    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2235:8
+    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2235:8
     Sharedflags*: Imguidocknodeflags_520094437
     Localflags*: Imguidocknodeflags_520094437
     Localflagsinwindows*: Imguidocknodeflags_520094437
@@ -2565,10 +2565,10 @@ type
     Wanthiddentabbarupdate*: bool
     Wanthiddentabbartoggle*: bool
 
-  Imguidocknodesettings_520094278 = structimguidocknodesettings ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:87:38
-  Imguigroupdata_520094280 = structimguigroupdata_520094283 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:88:31
+  Imguidocknodesettings_520094278 = structimguidocknodesettings ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:87:38
+  Imguigroupdata_520094280 = structimguigroupdata_520094283 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:88:31
   structimguigroupdata_520094282 {.pure, inheritable, bycopy.} = object
-    Windowid*: Imguiid_520094475 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1780:8
+    Windowid*: Imguiid_520094475 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1780:8
     Backupcursorpos*: Imvec2_520094507
     Backupcursormaxpos*: Imvec2_520094507
     Backupcursorposprevline*: Imvec2_520094507
@@ -2582,9 +2582,9 @@ type
     Backupissameline*: bool
     Emititem*: bool
 
-  Imguiinputtextstate_520094284 = structimguiinputtextstate_520094287 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:89:36
+  Imguiinputtextstate_520094284 = structimguiinputtextstate_520094287 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:89:36
   structimguiinputtextstate_520094286 {.pure, inheritable, bycopy.} = object
-    Ctx*: ptr Imguicontext_520094158 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1813:8
+    Ctx*: ptr Imguicontext_520094158 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1813:8
     Id*: Imguiid_520094475
     Curlenw*: cint
     Curlena*: cint
@@ -2601,24 +2601,24 @@ type
     Edited*: bool
     Flags*: Imguiinputtextflags_520094445
 
-  Imguiinputtextdeactivatedata_520094288 = structimguiinputtextdeactivatedata ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:90:45
-  Imguilastitemdata_520094290 = structimguilastitemdata_520094293 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:91:34
+  Imguiinputtextdeactivatedata_520094288 = structimguiinputtextdeactivatedata ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:90:45
+  Imguilastitemdata_520094290 = structimguilastitemdata_520094293 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:91:34
   structimguilastitemdata_520094292 {.pure, inheritable, bycopy.} = object
-    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1896:8
+    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1896:8
     Inflags*: Imguiitemflags_520094769
     Statusflags*: Imguiitemstatusflags_520094771
     Rect*: Imrect_520094245
     Navrect*: Imrect_520094245
     Displayrect*: Imrect_520094245
 
-  Imguilocentry_520094294 = structimguilocentry_520094297 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:92:30
+  Imguilocentry_520094294 = structimguilocentry_520094297 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:92:30
   structimguilocentry_520094296 {.pure, inheritable, bycopy.} = object
-    Key*: Imguilockey_520095095 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2372:8
+    Key*: Imguilockey_520095095 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2372:8
     Text*: cstring
 
-  Imguimenucolumns_520094298 = structimguimenucolumns_520094301 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:93:33
+  Imguimenucolumns_520094298 = structimguimenucolumns_520094301 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:93:33
   structimguimenucolumns_520094300 {.pure, inheritable, bycopy.} = object
-    Totalwidth*: Imu32_520094487 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1796:8
+    Totalwidth*: Imu32_520094487 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1796:8
     Nexttotalwidth*: Imu32_520094487
     Spacing*: Imu16_520094483
     Offseticon*: Imu16_520094483
@@ -2627,9 +2627,9 @@ type
     Offsetmark*: Imu16_520094483
     Widths*: array[4'i64, Imu16_520094483]
 
-  Imguinavitemdata_520094302 = structimguinavitemdata_520094305 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:94:33
+  Imguinavitemdata_520094302 = structimguinavitemdata_520094305 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:94:33
   structimguinavitemdata_520094304 {.pure, inheritable, bycopy.} = object
-    Window*: ptr Imguiwindow_520094385 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2133:8
+    Window*: ptr Imguiwindow_520094385 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2133:8
     Id*: Imguiid_520094475
     Focusscopeid*: Imguiid_520094475
     Rectrel*: Imrect_520094245
@@ -2639,15 +2639,15 @@ type
     Distcenter*: cfloat
     Distaxial*: cfloat
 
-  Imguinavtreenodedata_520094306 = structimguinavtreenodedata_520094309 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:95:37
+  Imguinavtreenodedata_520094306 = structimguinavtreenodedata_520094309 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:95:37
   structimguinavtreenodedata_520094308 {.pure, inheritable, bycopy.} = object
-    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1905:8
+    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1905:8
     Inflags*: Imguiitemflags_520094769
     Navrect*: Imrect_520094245
 
-  Imguimetricsconfig_520094310 = structimguimetricsconfig_520094313 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:96:35
+  Imguimetricsconfig_520094310 = structimguimetricsconfig_520094313 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:96:35
   structimguimetricsconfig_520094312 {.pure, inheritable, bycopy.} = object
-    Showdebuglog*: bool      ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2407:8
+    Showdebuglog*: bool      ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2407:8
     Showidstacktool*: bool
     Showwindowsrects*: bool
     Showwindowsbeginorder*: bool
@@ -2659,9 +2659,9 @@ type
     Showwindowsrectstype*: cint
     Showtablesrectstype*: cint
 
-  Imguinextwindowdata_520094314 = structimguinextwindowdata_520094317 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:97:36
+  Imguinextwindowdata_520094314 = structimguinextwindowdata_520094317 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:97:36
   structimguinextwindowdata_520094316 {.pure, inheritable, bycopy.} = object
-    Flags*: Imguinextwindowdataflags_520094781 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1857:8
+    Flags*: Imguinextwindowdataflags_520094781 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1857:8
     Poscond*: Imguicond_520094403
     Sizecond*: Imguicond_520094403
     Collapsedcond*: Imguicond_520094403
@@ -2683,25 +2683,25 @@ type
     Windowclass*: Imguiwindowclass_520094237
     Menubaroffsetminval*: Imvec2_520094507
 
-  Imguinextitemdata_520094318 = structimguinextitemdata_520094321 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:98:34
+  Imguinextitemdata_520094318 = structimguinextitemdata_520094321 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:98:34
   structimguinextitemdata_520094320 {.pure, inheritable, bycopy.} = object
-    Flags*: Imguinextitemdataflags_520094779 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1887:8
+    Flags*: Imguinextitemdataflags_520094779 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1887:8
     Itemflags*: Imguiitemflags_520094769
     Width*: cfloat
     Selectionuserdata*: Imguiselectionuserdata_520094927
     Opencond*: Imguicond_520094403
     Openval*: bool
 
-  Imguioldcolumndata_520094322 = structimguioldcolumndata_520094325 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:99:35
+  Imguioldcolumndata_520094322 = structimguioldcolumndata_520094325 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:99:35
   structimguioldcolumndata_520094324 {.pure, inheritable, bycopy.} = object
-    Offsetnorm*: cfloat      ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2176:8
+    Offsetnorm*: cfloat      ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2176:8
     Offsetnormbeforeresize*: cfloat
     Flags*: Imguioldcolumnflags_520094773
     Cliprect*: Imrect_520094245
 
-  Imguioldcolumns_520094326 = structimguioldcolumns_520094329 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:100:32
+  Imguioldcolumns_520094326 = structimguioldcolumns_520094329 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:100:32
   structimguioldcolumns_520094328 {.pure, inheritable, bycopy.} = object
-    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2185:8
+    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2185:8
     Flags*: Imguioldcolumnflags_520094773
     Isfirstframe*: bool
     Isbeingresized*: bool
@@ -2719,9 +2719,9 @@ type
     Columns*: Imvectorimguioldcolumndata_520095055
     Splitter*: Imdrawlistsplitter_520094122
 
-  Imguipopupdata_520094330 = structimguipopupdata_520094333 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:101:31
+  Imguipopupdata_520094330 = structimguipopupdata_520094333 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:101:31
   structimguipopupdata_520094332 {.pure, inheritable, bycopy.} = object
-    Popupid*: Imguiid_520094475 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1831:8
+    Popupid*: Imguiid_520094475 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1831:8
     Window*: ptr Imguiwindow_520094385
     Backupnavwindow*: ptr Imguiwindow_520094385
     Parentnavlayer*: cint
@@ -2730,9 +2730,9 @@ type
     Openpopuppos*: Imvec2_520094507
     Openmousepos*: Imvec2_520094507
 
-  Imguisettingshandler_520094334 = structimguisettingshandler_520094337 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:102:37
+  Imguisettingshandler_520094334 = structimguisettingshandler_520094337 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:102:37
   structimguisettingshandler_520094336 {.pure, inheritable, bycopy.} = object
-    Typename*: cstring       ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2346:8
+    Typename*: cstring       ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2346:8
     Typehash*: Imguiid_520094475
     Clearallfn*: proc (a0: ptr Imguicontext_520094158;
                        a1: ptr Imguisettingshandler_520094335): void {.cdecl.}
@@ -2751,9 +2751,9 @@ type
                        a2: ptr Imguitextbuffer_520094225): void {.cdecl.}
     Userdata*: pointer
 
-  Imguistacksizes_520094338 = structimguistacksizes_520094341 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:103:32
+  Imguistacksizes_520094338 = structimguistacksizes_520094341 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:103:32
   structimguistacksizes_520094340 {.pure, inheritable, bycopy.} = object
-    Sizeofidstack*: cshort   ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1911:8
+    Sizeofidstack*: cshort   ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1911:8
     Sizeofcolorstack*: cshort
     Sizeofstylevarstack*: cshort
     Sizeoffontstack*: cshort
@@ -2763,18 +2763,18 @@ type
     Sizeofbeginpopupstack*: cshort
     Sizeofdisabledstack*: cshort
 
-  Imguistylemod_520094342 = structimguistylemod_520094345 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:104:30
+  Imguistylemod_520094342 = structimguistylemod_520094345 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:104:30
   structimguistylemod_anon0_t {.union, bycopy.} = object
     Backupint*: array[2'i64, cint]
     Backupfloat*: array[2'i64, cfloat]
 
   structimguistylemod_520094344 {.pure, inheritable, bycopy.} = object
-    Varidx*: Imguistylevar_520094415 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1765:8
+    Varidx*: Imguistylevar_520094415 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1765:8
     anon0*: structimguistylemod_anon0_t
 
-  Imguitabbar_520094346 = structimguitabbar_520094349 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:105:28
+  Imguitabbar_520094346 = structimguitabbar_520094349 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:105:28
   structimguitabbar_520094348 {.pure, inheritable, bycopy.} = object
-    Tabs*: Imvectorimguitabitem_520095233 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2953:8
+    Tabs*: Imvectorimguitabitem_520095233 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2953:8
     Flags*: Imguitabbarflags_520094455
     Id*: Imguiid_520094475
     Selectedtabid*: Imguiid_520094475
@@ -2808,9 +2808,9 @@ type
     Backupcursorpos*: Imvec2_520094507
     Tabsnames*: Imguitextbuffer_520094225
 
-  Imguitabitem_520094350 = structimguitabitem_520094353 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:106:29
+  Imguitabitem_520094350 = structimguitabitem_520094353 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:106:29
   structimguitabitem_520094352 {.pure, inheritable, bycopy.} = object
-    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2935:8
+    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2935:8
     Flags*: Imguitabitemflags_520094457
     Window*: ptr Imguiwindow_520094385
     Lastframevisible*: cint
@@ -2824,9 +2824,9 @@ type
     Indexduringlayout*: Ims16_520094481
     Wantclose*: bool
 
-  Imguitable_520094354 = structimguitable_520094357 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:107:27
+  Imguitable_520094354 = structimguitable_520094357 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:107:27
   structimguitable_520094356 {.pure, inheritable, bycopy.} = object
-    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:3060:8
+    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:3060:8
     Flags*: Imguitableflags_520094459
     Rawdata*: pointer
     Tempdata*: ptr Imguitabletempdata_520094367
@@ -2939,9 +2939,9 @@ type
     Memorycompacted*: bool
     Hostskipitems*: bool
 
-  Imguitablecolumn_520094358 = structimguitablecolumn_520094361 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:108:33
+  Imguitablecolumn_520094358 = structimguitablecolumn_520094361 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:108:33
   structimguitablecolumn_520094360 {.pure, inheritable, bycopy.} = object
-    Flags*: Imguitablecolumnflags_520094461 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2991:8
+    Flags*: Imguitablecolumnflags_520094461 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2991:8
     Widthgiven*: cfloat
     Minx*: cfloat
     Maxx*: cfloat
@@ -2983,18 +2983,18 @@ type
     Sortdirectionsavailmask*: Imu8_520094479
     Sortdirectionsavaillist*: Imu8_520094479
 
-  Imguitableinstancedata_520094362 = structimguitableinstancedata_520094365 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:109:39
+  Imguitableinstancedata_520094362 = structimguitableinstancedata_520094365 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:109:39
   structimguitableinstancedata_520094364 {.pure, inheritable, bycopy.} = object
-    Tableinstanceid*: Imguiid_520094475 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:3041:8
+    Tableinstanceid*: Imguiid_520094475 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:3041:8
     Lastouterheight*: cfloat
     Lasttopheadersrowheight*: cfloat
     Lastfrozenheight*: cfloat
     Hoveredrowlast*: cint
     Hoveredrownext*: cint
 
-  Imguitabletempdata_520094366 = structimguitabletempdata_520094369 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:110:35
+  Imguitabletempdata_520094366 = structimguitabletempdata_520094369 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:110:35
   structimguitabletempdata_520094368 {.pure, inheritable, bycopy.} = object
-    Tableindex*: cint        ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:3175:8
+    Tableindex*: cint        ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:3175:8
     Lasttimeactive*: cfloat
     Angledheadersextrawidth*: cfloat
     Useroutersize*: Imvec2_520094507
@@ -3008,37 +3008,37 @@ type
     Hostbackupitemwidth*: cfloat
     Hostbackupitemwidthstacksize*: cint
 
-  Imguitablesettings_520094370 = structimguitablesettings_520094373 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:111:35
+  Imguitablesettings_520094370 = structimguitablesettings_520094373 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:111:35
   structimguitablesettings_520094372 {.pure, inheritable, bycopy.} = object
-    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:3203:8
+    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:3203:8
     Saveflags*: Imguitableflags_520094459
     Refscale*: cfloat
     Columnscount*: Imguitablecolumnidx_520095235
     Columnscountmax*: Imguitablecolumnidx_520095235
     Wantapply*: bool
 
-  Imguitablecolumnssettings_520094374 = structimguitablecolumnssettings ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:112:42
-  Imguitypingselectstate_520094376 = structimguitypingselectstate_520094379 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:113:39
+  Imguitablecolumnssettings_520094374 = structimguitablecolumnssettings ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:112:42
+  Imguitypingselectstate_520094376 = structimguitypingselectstate_520094379 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:113:39
   structimguitypingselectstate_520094378 {.pure, inheritable, bycopy.} = object
-    Request*: Imguitypingselectrequest_520094381 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2159:8
+    Request*: Imguitypingselectrequest_520094381 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2159:8
     Searchbuffer*: array[64'i64, cschar]
     Focusscope*: Imguiid_520094475
     Lastrequestframe*: cint
     Lastrequesttime*: cfloat
     Singlecharmodelock*: bool
 
-  Imguitypingselectrequest_520094380 = structimguitypingselectrequest_520094383 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:114:41
+  Imguitypingselectrequest_520094380 = structimguitypingselectrequest_520094383 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:114:41
   structimguitypingselectrequest_520094382 {.pure, inheritable, bycopy.} = object
-    Flags*: Imguitypingselectflags_520094791 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2150:8
+    Flags*: Imguitypingselectflags_520094791 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2150:8
     Searchbufferlen*: cint
     Searchbuffer*: cstring
     Selectrequest*: bool
     Singlecharmode*: bool
     Singlecharsize*: Ims8_520094477
 
-  Imguiwindow_520094384 = structimguiwindow_520094387 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:115:28
+  Imguiwindow_520094384 = structimguiwindow_520094387 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:115:28
   structimguiwindow_520094386 {.pure, inheritable, bycopy.} = object
-    Ctx*: ptr Imguicontext_520094158 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2807:8
+    Ctx*: ptr Imguicontext_520094158 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2807:8
     Name*: cstring
     Id*: Imguiid_520094475
     Flags*: Imguiwindowflags_520094469
@@ -3159,9 +3159,9 @@ type
     Docktabitemstatusflags*: Imguiitemstatusflags_520094771
     Docktabitemrect*: Imrect_520094245
 
-  Imguiwindowtempdata_520094388 = structimguiwindowtempdata_520094391 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:116:36
+  Imguiwindowtempdata_520094388 = structimguiwindowtempdata_520094391 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:116:36
   structimguiwindowtempdata_520094390 {.pure, inheritable, bycopy.} = object
-    Cursorpos*: Imvec2_520094507 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2766:8
+    Cursorpos*: Imvec2_520094507 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2766:8
     Cursorposprevline*: Imvec2_520094507
     Cursorstartpos*: Imvec2_520094507
     Cursormaxpos*: Imvec2_520094507
@@ -3198,9 +3198,9 @@ type
     Itemwidthstack*: Imvectorfloat_520094739
     Textwrapposstack*: Imvectorfloat_520094739
 
-  Imguiwindowsettings_520094392 = structimguiwindowsettings_520094395 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:117:36
+  Imguiwindowsettings_520094392 = structimguiwindowsettings_520094395 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:117:36
   structimguiwindowsettings_520094394 {.pure, inheritable, bycopy.} = object
-    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2331:8
+    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2331:8
     Pos*: Imvec2ih_520094819
     Size*: Imvec2ih_520094819
     Viewportpos*: Imvec2ih_520094819
@@ -3214,216 +3214,216 @@ type
     Wantdelete*: bool
 
   structimvectorconstcharptr_520094396 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:118:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:118:16
     Capacity*: cint
     Data*: ptr cstring
 
-  Imvectorconstcharptr_520094398 = structimvectorconstcharptr_520094397 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:118:82
-  Imguicol_520094400 = cint  ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:153:13
-  Imguicond_520094402 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:154:13
-  Imguidatatype_520094404 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:155:13
-  Imguidir_520094406 = cint  ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:156:13
-  Imguimousebutton_520094408 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:157:13
-  Imguimousecursor_520094410 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:158:13
-  Imguisortdirection_520094412 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:159:13
-  Imguistylevar_520094414 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:160:13
-  Imguitablebgtarget_520094416 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:161:13
-  Imdrawflags_520094418 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:162:13
-  Imdrawlistflags_520094420 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:163:13
-  Imfontatlasflags_520094422 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:164:13
-  Imguibackendflags_520094424 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:165:13
-  Imguibuttonflags_520094426 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:166:13
-  Imguichildflags_520094428 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:167:13
-  Imguicoloreditflags_520094430 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:168:13
-  Imguiconfigflags_520094432 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:169:13
-  Imguicomboflags_520094434 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:170:13
-  Imguidocknodeflags_520094436 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:171:13
-  Imguidragdropflags_520094438 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:172:13
-  Imguifocusedflags_520094440 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:173:13
-  Imguihoveredflags_520094442 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:174:13
-  Imguiinputtextflags_520094444 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:175:13
-  Imguikeychord_520094446 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:176:13
-  Imguipopupflags_520094448 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:177:13
-  Imguiselectableflags_520094450 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:178:13
-  Imguisliderflags_520094452 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:179:13
-  Imguitabbarflags_520094454 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:180:13
-  Imguitabitemflags_520094456 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:181:13
-  Imguitableflags_520094458 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:182:13
-  Imguitablecolumnflags_520094460 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:183:13
-  Imguitablerowflags_520094462 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:184:13
-  Imguitreenodeflags_520094464 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:185:13
-  Imguiviewportflags_520094466 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:186:13
-  Imguiwindowflags_520094468 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:187:13
-  Imtextureid_520094470 = pointer ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:188:15
-  Imdrawidx_520094472 = cushort ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:189:24
-  Imguiid_520094474 = cuint  ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:190:22
-  Ims8_520094476 = cschar    ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:191:21
-  Imu8_520094478 = uint8     ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:192:23
-  Ims16_520094480 = cshort   ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:193:22
-  Imu16_520094482 = cushort  ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:194:24
-  Ims32_520094484 = cint     ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:195:20
-  Imu32_520094486 = cuint    ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:196:22
-  Ims64_520094488 = clonglong ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:197:26
-  Imu64_520094490 = culonglong ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:198:28
-  Imwchar32_520094492 = cuint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:199:22
-  Imwchar16_520094494 = cushort ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:200:24
-  Imwchar_520094496 = Imwchar16_520094495 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:201:19
+  Imvectorconstcharptr_520094398 = structimvectorconstcharptr_520094397 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:118:82
+  Imguicol_520094400 = cint  ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:153:13
+  Imguicond_520094402 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:154:13
+  Imguidatatype_520094404 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:155:13
+  Imguidir_520094406 = cint  ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:156:13
+  Imguimousebutton_520094408 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:157:13
+  Imguimousecursor_520094410 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:158:13
+  Imguisortdirection_520094412 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:159:13
+  Imguistylevar_520094414 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:160:13
+  Imguitablebgtarget_520094416 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:161:13
+  Imdrawflags_520094418 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:162:13
+  Imdrawlistflags_520094420 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:163:13
+  Imfontatlasflags_520094422 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:164:13
+  Imguibackendflags_520094424 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:165:13
+  Imguibuttonflags_520094426 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:166:13
+  Imguichildflags_520094428 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:167:13
+  Imguicoloreditflags_520094430 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:168:13
+  Imguiconfigflags_520094432 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:169:13
+  Imguicomboflags_520094434 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:170:13
+  Imguidocknodeflags_520094436 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:171:13
+  Imguidragdropflags_520094438 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:172:13
+  Imguifocusedflags_520094440 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:173:13
+  Imguihoveredflags_520094442 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:174:13
+  Imguiinputtextflags_520094444 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:175:13
+  Imguikeychord_520094446 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:176:13
+  Imguipopupflags_520094448 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:177:13
+  Imguiselectableflags_520094450 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:178:13
+  Imguisliderflags_520094452 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:179:13
+  Imguitabbarflags_520094454 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:180:13
+  Imguitabitemflags_520094456 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:181:13
+  Imguitableflags_520094458 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:182:13
+  Imguitablecolumnflags_520094460 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:183:13
+  Imguitablerowflags_520094462 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:184:13
+  Imguitreenodeflags_520094464 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:185:13
+  Imguiviewportflags_520094466 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:186:13
+  Imguiwindowflags_520094468 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:187:13
+  Imtextureid_520094470 = pointer ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:188:15
+  Imdrawidx_520094472 = cushort ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:189:24
+  Imguiid_520094474 = cuint  ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:190:22
+  Ims8_520094476 = cschar    ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:191:21
+  Imu8_520094478 = uint8     ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:192:23
+  Ims16_520094480 = cshort   ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:193:22
+  Imu16_520094482 = cushort  ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:194:24
+  Ims32_520094484 = cint     ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:195:20
+  Imu32_520094486 = cuint    ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:196:22
+  Ims64_520094488 = clonglong ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:197:26
+  Imu64_520094490 = culonglong ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:198:28
+  Imwchar32_520094492 = cuint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:199:22
+  Imwchar16_520094494 = cushort ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:200:24
+  Imwchar_520094496 = Imwchar16_520094495 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:201:19
   Imguiinputtextcallback_520094498 = proc (a0: ptr Imguiinputtextcallbackdata_520094166): cint {.
-      cdecl.}                ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:202:15
+      cdecl.}                ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:202:15
   Imguisizecallback_520094500 = proc (a0: ptr Imguisizecallbackdata_520094205): void {.
-      cdecl.}                ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:203:16
-  Imguimemallocfunc_520094502 = proc (a0: csize_t; a1: pointer): pointer {.cdecl.} ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:204:17
-  Imguimemfreefunc_520094504 = proc (a0: pointer; a1: pointer): void {.cdecl.} ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:205:16
-  Imvec2_520094506 = structimvec2_520094509 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:11:23
+      cdecl.}                ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:203:16
+  Imguimemallocfunc_520094502 = proc (a0: csize_t; a1: pointer): pointer {.cdecl.} ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:204:17
+  Imguimemfreefunc_520094504 = proc (a0: pointer; a1: pointer): void {.cdecl.} ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:205:16
+  Imvec2_520094506 = structimvec2_520094509 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:11:23
   structimvec2_520094508 {.pure, inheritable, bycopy.} = object
-    x*: cfloat               ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:207:8
+    x*: cfloat               ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:207:8
     y*: cfloat
 
-  Imvec4_520094510 = structimvec4_520094513 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:211:23
+  Imvec4_520094510 = structimvec4_520094513 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:211:23
   structimvec4_520094512 {.pure, inheritable, bycopy.} = object
-    x*: cfloat               ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:212:8
+    x*: cfloat               ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:212:8
     y*: cfloat
     z*: cfloat
     w*: cfloat
 
-  Imguiwindowflagstypedef_520094516 = enumimguiwindowflags_520094515 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:248:2
-  Imguichildflagstypedef_520094520 = enumimguichildflags_520094519 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:259:2
-  Imguiinputtextflagstypedef_520094524 = enumimguiinputtextflags_520094523 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:283:2
-  Imguitreenodeflagstypedef_520094528 = enumimguitreenodeflags_520094527 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:302:2
-  Imguipopupflagstypedef_520094532 = enumimguipopupflags_520094531 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:315:2
-  Imguiselectableflagstypedef_520094536 = enumimguiselectableflags_520094535 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:323:2
-  Imguicomboflagstypedef_520094540 = enumimguicomboflags_520094539 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:335:2
-  Imguitabbarflagstypedef_520094544 = enumimguitabbarflags_520094543 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:348:2
-  Imguitabitemflagstypedef_520094548 = enumimguitabitemflags_520094547 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:359:2
-  Imguitableflagstypedef_520094552 = enumimguitableflags_520094551 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:398:2
-  Imguitablecolumnflagstypedef_520094556 = enumimguitablecolumnflags_520094555 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:428:2
-  Imguitablerowflagstypedef_520094560 = enumimguitablerowflags_520094559 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:432:2
-  Imguitablebgtargettypedef_520094564 = enumimguitablebgtarget_520094563 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:438:2
-  Imguifocusedflagstypedef_520094568 = enumimguifocusedflags_520094567 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:447:2
-  Imguihoveredflagstypedef_520094572 = enumimguihoveredflags_520094571 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:470:2
-  Imguidocknodeflagstypedef_520094576 = enumimguidocknodeflags_520094575 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:480:2
-  Imguidragdropflagstypedef_520094580 = enumimguidragdropflags_520094579 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:493:2
-  Imguidatatypetypedef_520094584 = enumimguidatatype_520094583 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:506:2
-  Imguidirtypedef_520094588 = enumimguidir_520094587 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:514:2
-  Imguisortdirectiontypedef_520094592 = enumimguisortdirection_520094591 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:519:2
-  Imguikey_520094596 = enumimguikey_520094595 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:689:2
-  Imguiconfigflagstypedef_520094600 = enumimguiconfigflags_520094599 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:704:2
-  Imguibackendflagstypedef_520094604 = enumimguibackendflags_520094603 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:714:2
-  Imguicoltypedef_520094608 = enumimguicol_520094607 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:772:2
-  Imguistylevartypedef_520094612 = enumimguistylevar_520094611 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:805:2
-  Imguibuttonflagstypedef_520094616 = enumimguibuttonflags_520094615 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:813:2
-  Imguicoloreditflagstypedef_520094620 = enumimguicoloreditflags_520094619 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:844:2
-  Imguisliderflagstypedef_520094624 = enumimguisliderflags_520094623 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:852:2
-  Imguimousebuttontypedef_520094628 = enumimguimousebutton_520094627 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:858:2
-  Imguimousecursortypedef_520094632 = enumimguimousecursor_520094631 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:871:2
-  Imguimousesource_520094636 = enumimguimousesource_520094635 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:877:2
-  Imguicondtypedef_520094640 = enumimguicond_520094639 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:884:2
+  Imguiwindowflagstypedef_520094516 = enumimguiwindowflags_520094515 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:248:2
+  Imguichildflagstypedef_520094520 = enumimguichildflags_520094519 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:259:2
+  Imguiinputtextflagstypedef_520094524 = enumimguiinputtextflags_520094523 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:283:2
+  Imguitreenodeflagstypedef_520094528 = enumimguitreenodeflags_520094527 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:302:2
+  Imguipopupflagstypedef_520094532 = enumimguipopupflags_520094531 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:315:2
+  Imguiselectableflagstypedef_520094536 = enumimguiselectableflags_520094535 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:323:2
+  Imguicomboflagstypedef_520094540 = enumimguicomboflags_520094539 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:335:2
+  Imguitabbarflagstypedef_520094544 = enumimguitabbarflags_520094543 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:348:2
+  Imguitabitemflagstypedef_520094548 = enumimguitabitemflags_520094547 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:359:2
+  Imguitableflagstypedef_520094552 = enumimguitableflags_520094551 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:398:2
+  Imguitablecolumnflagstypedef_520094556 = enumimguitablecolumnflags_520094555 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:428:2
+  Imguitablerowflagstypedef_520094560 = enumimguitablerowflags_520094559 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:432:2
+  Imguitablebgtargettypedef_520094564 = enumimguitablebgtarget_520094563 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:438:2
+  Imguifocusedflagstypedef_520094568 = enumimguifocusedflags_520094567 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:447:2
+  Imguihoveredflagstypedef_520094572 = enumimguihoveredflags_520094571 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:470:2
+  Imguidocknodeflagstypedef_520094576 = enumimguidocknodeflags_520094575 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:480:2
+  Imguidragdropflagstypedef_520094580 = enumimguidragdropflags_520094579 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:493:2
+  Imguidatatypetypedef_520094584 = enumimguidatatype_520094583 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:506:2
+  Imguidirtypedef_520094588 = enumimguidir_520094587 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:514:2
+  Imguisortdirectiontypedef_520094592 = enumimguisortdirection_520094591 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:519:2
+  Imguikey_520094596 = enumimguikey_520094595 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:689:2
+  Imguiconfigflagstypedef_520094600 = enumimguiconfigflags_520094599 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:704:2
+  Imguibackendflagstypedef_520094604 = enumimguibackendflags_520094603 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:714:2
+  Imguicoltypedef_520094608 = enumimguicol_520094607 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:772:2
+  Imguistylevartypedef_520094612 = enumimguistylevar_520094611 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:805:2
+  Imguibuttonflagstypedef_520094616 = enumimguibuttonflags_520094615 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:813:2
+  Imguicoloreditflagstypedef_520094620 = enumimguicoloreditflags_520094619 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:844:2
+  Imguisliderflagstypedef_520094624 = enumimguisliderflags_520094623 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:852:2
+  Imguimousebuttontypedef_520094628 = enumimguimousebutton_520094627 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:858:2
+  Imguimousecursortypedef_520094632 = enumimguimousecursor_520094631 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:871:2
+  Imguimousesource_520094636 = enumimguimousesource_520094635 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:877:2
+  Imguicondtypedef_520094640 = enumimguicond_520094639 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:884:2
   structimvectorimwchar_520094642 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:947:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:947:16
     Capacity*: cint
     Data*: ptr Imwchar_520094497
 
-  Imvectorimwchar_520094644 = structimvectorimwchar_520094643 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:947:72
+  Imvectorimwchar_520094644 = structimvectorimwchar_520094643 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:947:72
   structimguitextrange_520094646 {.pure, inheritable, bycopy.} = object
-    b*: cstring              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1113:8
+    b*: cstring              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1113:8
     e*: cstring
 
-  Imguitextrange_520094648 = structimguitextrange_520094647 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1128:31
+  Imguitextrange_520094648 = structimguitextrange_520094647 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1128:31
   structimvectorimguitextrange_520094650 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1120:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1120:16
     Capacity*: cint
     Data*: ptr Imguitextrange_520094649
 
-  Imvectorimguitextrange_520094652 = structimvectorimguitextrange_520094651 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1120:86
+  Imvectorimguitextrange_520094652 = structimvectorimguitextrange_520094651 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1120:86
   structimvectorchar_520094654 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1129:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1129:16
     Capacity*: cint
     Data*: cstring
 
-  Imvectorchar_520094656 = structimvectorchar_520094655 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1129:66
+  Imvectorchar_520094656 = structimvectorchar_520094655 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1129:66
   structimguistoragepair_anon0_t {.union, bycopy.} = object
     vali*: cint
     valf*: cfloat
     valp*: pointer
 
   structimguistoragepair_520094658 {.pure, inheritable, bycopy.} = object
-    key*: Imguiid_520094475  ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1135:8
+    key*: Imguiid_520094475  ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1135:8
     anon0*: structimguistoragepair_anon0_t
 
-  Imguistoragepair_520094660 = structimguistoragepair_520094659 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1148:33
+  Imguistoragepair_520094660 = structimguistoragepair_520094659 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1148:33
   structimvectorimguistoragepair_520094662 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1142:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1142:16
     Capacity*: cint
     Data*: ptr Imguistoragepair_520094661
 
-  Imvectorimguistoragepair_520094664 = structimvectorimguistoragepair_520094663 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1142:90
+  Imvectorimguistoragepair_520094664 = structimvectorimguistoragepair_520094663 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1142:90
   Imdrawcallback_520094666 = proc (a0: ptr Imdrawlist_520094114;
-                                   a1: ptr Imdrawcmd_520094106): void {.cdecl.} ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1163:16
-  Imdrawcmdheader_520094668 = structimdrawcmdheader_520094671 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1180:32
+                                   a1: ptr Imdrawcmd_520094106): void {.cdecl.} ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1163:16
+  Imdrawcmdheader_520094668 = structimdrawcmdheader_520094671 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1180:32
   structimdrawcmdheader_520094670 {.pure, inheritable, bycopy.} = object
-    Cliprect*: Imvec4_520094511 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1181:8
+    Cliprect*: Imvec4_520094511 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1181:8
     Textureid*: Imtextureid_520094471
     Vtxoffset*: cuint
 
   structimvectorimdrawcmd_520094672 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1187:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1187:16
     Capacity*: cint
     Data*: ptr Imdrawcmd_520094106
 
-  Imvectorimdrawcmd_520094674 = structimvectorimdrawcmd_520094673 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1187:76
+  Imvectorimdrawcmd_520094674 = structimvectorimdrawcmd_520094673 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1187:76
   structimvectorimdrawidx_520094676 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1189:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1189:16
     Capacity*: cint
     Data*: ptr Imdrawidx_520094473
 
-  Imvectorimdrawidx_520094678 = structimvectorimdrawidx_520094677 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1189:76
+  Imvectorimdrawidx_520094678 = structimvectorimdrawidx_520094677 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1189:76
   structimvectorimdrawchannel_520094680 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1196:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1196:16
     Capacity*: cint
     Data*: ptr Imdrawchannel_520094102
 
-  Imvectorimdrawchannel_520094682 = structimvectorimdrawchannel_520094681 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1196:84
-  Imdrawflagstypedef_520094686 = enumimdrawflags_520094685 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1219:2
-  Imdrawlistflagstypedef_520094690 = enumimdrawlistflags_520094689 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1226:2
+  Imvectorimdrawchannel_520094682 = structimvectorimdrawchannel_520094681 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1196:84
+  Imdrawflagstypedef_520094686 = enumimdrawflags_520094685 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1219:2
+  Imdrawlistflagstypedef_520094690 = enumimdrawlistflags_520094689 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1226:2
   structimvectorimdrawvert_520094692 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1227:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1227:16
     Capacity*: cint
     Data*: ptr Imdrawvert_520094126
 
-  Imvectorimdrawvert_520094694 = structimvectorimdrawvert_520094693 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1227:78
+  Imvectorimdrawvert_520094694 = structimvectorimdrawvert_520094693 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1227:78
   structimvectorimvec4_520094696 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1229:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1229:16
     Capacity*: cint
     Data*: ptr Imvec4_520094511
 
-  Imvectorimvec4_520094698 = structimvectorimvec4_520094697 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1229:70
+  Imvectorimvec4_520094698 = structimvectorimvec4_520094697 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1229:70
   structimvectorimtextureid_520094700 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1231:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1231:16
     Capacity*: cint
     Data*: ptr Imtextureid_520094471
 
-  Imvectorimtextureid_520094702 = structimvectorimtextureid_520094701 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1231:80
+  Imvectorimtextureid_520094702 = structimvectorimtextureid_520094701 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1231:80
   structimvectorimvec2_520094704 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1233:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1233:16
     Capacity*: cint
     Data*: ptr Imvec2_520094507
 
-  Imvectorimvec2_520094706 = structimvectorimvec2_520094705 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1233:70
+  Imvectorimvec2_520094706 = structimvectorimvec2_520094705 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1233:70
   structimvectorimdrawlistptr_520094708 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1253:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1253:16
     Capacity*: cint
     Data*: ptr ptr Imdrawlist_520094114
 
-  Imvectorimdrawlistptr_520094710 = structimvectorimdrawlistptr_520094709 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1253:82
+  Imvectorimdrawlistptr_520094710 = structimvectorimdrawlistptr_520094709 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1253:82
   structimvectorimu32_520094712 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1299:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1299:16
     Capacity*: cint
     Data*: ptr Imu32_520094487
 
-  Imvectorimu32_520094714 = structimvectorimu32_520094713 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1299:68
-  Imfontatlascustomrect_520094716 = structimfontatlascustomrect_520094719 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1305:38
+  Imvectorimu32_520094714 = structimvectorimu32_520094713 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1299:68
+  Imfontatlascustomrect_520094716 = structimfontatlascustomrect_520094719 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1305:38
   structimfontatlascustomrect_520094718 {.pure, inheritable, bycopy.} = object
-    Width*: cushort          ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1306:8
+    Width*: cushort          ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1306:8
     Height*: cushort
     X*: cushort
     Y*: cushort
@@ -3432,89 +3432,89 @@ type
     Glyphoffset*: Imvec2_520094507
     Font*: ptr Imfont_520094130
 
-  Imfontatlasflagstypedef_520094722 = enumimfontatlasflags_520094721 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1320:2
+  Imfontatlasflagstypedef_520094722 = enumimfontatlasflags_520094721 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1320:2
   structimvectorimfontptr_520094724 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1321:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1321:16
     Capacity*: cint
     Data*: ptr ptr Imfont_520094130
 
-  Imvectorimfontptr_520094726 = structimvectorimfontptr_520094725 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1321:74
+  Imvectorimfontptr_520094726 = structimvectorimfontptr_520094725 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1321:74
   structimvectorimfontatlascustomrect_520094728 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1323:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1323:16
     Capacity*: cint
     Data*: ptr Imfontatlascustomrect_520094717
 
-  Imvectorimfontatlascustomrect_520094730 = structimvectorimfontatlascustomrect_520094729 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1323:100
+  Imvectorimfontatlascustomrect_520094730 = structimvectorimfontatlascustomrect_520094729 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1323:100
   structimvectorimfontconfig_520094732 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1325:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1325:16
     Capacity*: cint
     Data*: ptr Imfontconfig_520094142
 
-  Imvectorimfontconfig_520094734 = structimvectorimfontconfig_520094733 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1325:82
+  Imvectorimfontconfig_520094734 = structimvectorimfontconfig_520094733 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1325:82
   structimvectorfloat_520094736 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1352:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1352:16
     Capacity*: cint
     Data*: ptr cfloat
 
-  Imvectorfloat_520094738 = structimvectorfloat_520094737 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1352:68
+  Imvectorfloat_520094738 = structimvectorfloat_520094737 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1352:68
   structimvectorimfontglyph_520094740 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1354:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1354:16
     Capacity*: cint
     Data*: ptr Imfontglyph_520094146
 
-  Imvectorimfontglyph_520094742 = structimvectorimfontglyph_520094741 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1354:80
-  Imguiviewportflagstypedef_520094746 = enumimguiviewportflags_520094745 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1394:2
+  Imvectorimfontglyph_520094742 = structimvectorimfontglyph_520094741 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1354:80
+  Imguiviewportflagstypedef_520094746 = enumimguiviewportflags_520094745 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1394:2
   structimvectorimguiplatformmonitor_520094748 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1415:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1415:16
     Capacity*: cint
     Data*: ptr Imguiplatformmonitor_520094197
 
-  Imvectorimguiplatformmonitor_520094750 = structimvectorimguiplatformmonitor_520094749 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1415:98
+  Imvectorimguiplatformmonitor_520094750 = structimvectorimguiplatformmonitor_520094749 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1415:98
   structimvectorimguiviewportptr_520094752 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1417:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1417:16
     Capacity*: cint
     Data*: ptr ptr Imguiviewport_520094233
 
-  Imvectorimguiviewportptr_520094754 = structimvectorimguiviewportptr_520094753 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1417:88
-  Imguidataauthority_520094756 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1503:13
-  Imguilayouttype_520094758 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1504:13
-  Imguiactivateflags_520094760 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1505:13
-  Imguidebuglogflags_520094762 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1506:13
-  Imguifocusrequestflags_520094764 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1507:13
-  Imguiinputflags_520094766 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1508:13
-  Imguiitemflags_520094768 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1509:13
-  Imguiitemstatusflags_520094770 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1510:13
-  Imguioldcolumnflags_520094772 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1511:13
-  Imguinavhighlightflags_520094774 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1512:13
-  Imguinavmoveflags_520094776 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1513:13
-  Imguinextitemdataflags_520094778 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1514:13
-  Imguinextwindowdataflags_520094780 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1515:13
-  Imguiscrollflags_520094782 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1516:13
-  Imguiseparatorflags_520094784 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1517:13
-  Imguitextflags_520094786 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1518:13
-  Imguitooltipflags_520094788 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1519:13
-  Imguitypingselectflags_520094790 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1520:13
+  Imvectorimguiviewportptr_520094754 = structimvectorimguiviewportptr_520094753 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1417:88
+  Imguidataauthority_520094756 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1503:13
+  Imguilayouttype_520094758 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1504:13
+  Imguiactivateflags_520094760 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1505:13
+  Imguidebuglogflags_520094762 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1506:13
+  Imguifocusrequestflags_520094764 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1507:13
+  Imguiinputflags_520094766 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1508:13
+  Imguiitemflags_520094768 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1509:13
+  Imguiitemstatusflags_520094770 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1510:13
+  Imguioldcolumnflags_520094772 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1511:13
+  Imguinavhighlightflags_520094774 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1512:13
+  Imguinavmoveflags_520094776 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1513:13
+  Imguinextitemdataflags_520094778 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1514:13
+  Imguinextwindowdataflags_520094780 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1515:13
+  Imguiscrollflags_520094782 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1516:13
+  Imguiseparatorflags_520094784 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1517:13
+  Imguitextflags_520094786 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1518:13
+  Imguitooltipflags_520094788 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1519:13
+  Imguitypingselectflags_520094790 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1520:13
   Imguierrorlogcallback_520094792 = proc (a0: pointer; a1: cstring): void {.
-      cdecl, varargs.}       ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1521:16
-  Stbundorecord_520094794 = structstbundorecord_520094797 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1523:30
+      cdecl, varargs.}       ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1521:16
+  Stbundorecord_520094794 = structstbundorecord_520094797 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1523:30
   structstbundorecord_520094796 {.pure, inheritable, bycopy.} = object
-    where*: cint             ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1524:8
+    where*: cint             ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1524:8
     insertlength*: cint
     deletelength*: cint
     charstorage*: cint
 
-  Stbundostate_520094798 = structstbundostate_520094801 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1531:29
+  Stbundostate_520094798 = structstbundostate_520094801 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1531:29
   structstbundostate_520094800 {.pure, inheritable, bycopy.} = object
-    undorec*: array[99'i64, Stbundorecord_520094795] ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1532:8
+    undorec*: array[99'i64, Stbundorecord_520094795] ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1532:8
     undochar*: array[999'i64, Imwchar_520094497]
     undopoint*: cshort
     redopoint*: cshort
     undocharpoint*: cint
     redocharpoint*: cint
 
-  Stbtexteditstate_520094802 = structstbtexteditstate_520094805 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1539:34
+  Stbtexteditstate_520094802 = structstbtexteditstate_520094805 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1539:34
   structstbtexteditstate_520094804 {.pure, inheritable, bycopy.} = object
-    cursor*: cint            ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1540:8
+    cursor*: cint            ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1540:8
     selectstart*: cint
     selectend*: cint
     insertmode*: uint8
@@ -3529,141 +3529,141 @@ type
     preferredx*: cfloat
     undostate*: Stbundostate_520094799
 
-  Stbtexteditrow_520094806 = structstbtexteditrow_520094809 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1555:31
+  Stbtexteditrow_520094806 = structstbtexteditrow_520094809 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1555:31
   structstbtexteditrow_520094808 {.pure, inheritable, bycopy.} = object
-    x0*: cfloat              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1556:8
+    x0*: cfloat              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1556:8
     x1*: cfloat
     baselineydelta*: cfloat
     ymin*: cfloat
     ymax*: cfloat
     numchars*: cint
 
-  Imfilehandle_520094810 = ptr File_520094813 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1563:15
+  Imfilehandle_520094810 = ptr File_520094813 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1563:15
   File_520094812 = structiofile_520095763 ## Generated based on /usr/include/bits/types/FILE.h:7:25
-  Imvec1_520094814 = structimvec1_520094817 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1564:23
+  Imvec1_520094814 = structimvec1_520094817 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1564:23
   structimvec1_520094816 {.pure, inheritable, bycopy.} = object
-    x*: cfloat               ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1565:8
+    x*: cfloat               ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1565:8
   
-  Imvec2ih_520094818 = structimvec2ih_520094821 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1569:25
+  Imvec2ih_520094818 = structimvec2ih_520094821 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1569:25
   structimvec2ih_520094820 {.pure, inheritable, bycopy.} = object
-    x*: cshort               ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1570:8
+    x*: cshort               ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1570:8
     y*: cshort
 
-  Imbitarrayptr_520094822 = ptr Imu32_520094487 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1579:16
-  Impoolidx_520094824 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1584:13
-  Imguitextindex_520094826 = structimguitextindex_520094829 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1585:31
+  Imbitarrayptr_520094822 = ptr Imu32_520094487 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1579:16
+  Impoolidx_520094824 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1584:13
+  Imguitextindex_520094826 = structimguitextindex_520094829 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1585:31
   structimguitextindex_520094828 {.pure, inheritable, bycopy.} = object
-    Lineoffsets*: Imvectorint_520094833 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1588:8
+    Lineoffsets*: Imvectorint_520094833 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1588:8
     Endoffset*: cint
 
   structimvectorint_520094830 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1586:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1586:16
     Capacity*: cint
     Data*: ptr cint
 
-  Imvectorint_520094832 = structimvectorint_520094831 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1586:64
-  Imguiitemflagstypedef_520094836 = enumimguiitemflags_520094835 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1627:2
-  Imguiitemstatusflagstypedef_520094840 = enumimguiitemstatusflags_520094839 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1640:2
-  Imguihoveredflagsprivate_520094844 = enumimguihoveredflagsprivate_520094843 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1645:2
-  Imguiinputtextflagsprivate_520094848 = enumimguiinputtextflagsprivate_520094847 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1650:2
-  Imguibuttonflagsprivate_520094852 = enumimguibuttonflagsprivate_520094851 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1671:2
-  Imguicomboflagsprivate_520094856 = enumimguicomboflagsprivate_520094855 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1674:2
-  Imguisliderflagsprivate_520094860 = enumimguisliderflagsprivate_520094859 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1678:2
-  Imguiselectableflagsprivate_520094864 = enumimguiselectableflagsprivate_520094863 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1688:2
-  Imguitreenodeflagsprivate_520094868 = enumimguitreenodeflagsprivate_520094867 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1692:2
-  Imguiseparatorflagstypedef_520094872 = enumimguiseparatorflags_520094871 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1698:2
-  Imguifocusrequestflagstypedef_520094876 = enumimguifocusrequestflags_520094875 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1703:2
-  Imguitextflagstypedef_520094880 = enumimguitextflags_520094879 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1707:2
-  Imguitooltipflagstypedef_520094884 = enumimguitooltipflags_520094883 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1711:2
-  Imguilayouttypetypedef_520094888 = enumimguilayouttype_520094887 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1715:2
-  Imguilogtype_520094892 = enumimguilogtype_520094891 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1722:2
-  Imguiaxis_520094896 = enumimguiaxis_520094895 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1727:2
-  Imguiplottype_520094900 = enumimguiplottype_520094899 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1731:2
-  Imguipopuppositionpolicy_520094904 = enumimguipopuppositionpolicy_520094903 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1736:2
-  Imguidatatypetempstorage_520094906 = structimguidatatypetempstorage_520094909 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1743:41
+  Imvectorint_520094832 = structimvectorint_520094831 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1586:64
+  Imguiitemflagstypedef_520094836 = enumimguiitemflags_520094835 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1627:2
+  Imguiitemstatusflagstypedef_520094840 = enumimguiitemstatusflags_520094839 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1640:2
+  Imguihoveredflagsprivate_520094844 = enumimguihoveredflagsprivate_520094843 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1645:2
+  Imguiinputtextflagsprivate_520094848 = enumimguiinputtextflagsprivate_520094847 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1650:2
+  Imguibuttonflagsprivate_520094852 = enumimguibuttonflagsprivate_520094851 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1671:2
+  Imguicomboflagsprivate_520094856 = enumimguicomboflagsprivate_520094855 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1674:2
+  Imguisliderflagsprivate_520094860 = enumimguisliderflagsprivate_520094859 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1678:2
+  Imguiselectableflagsprivate_520094864 = enumimguiselectableflagsprivate_520094863 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1688:2
+  Imguitreenodeflagsprivate_520094868 = enumimguitreenodeflagsprivate_520094867 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1692:2
+  Imguiseparatorflagstypedef_520094872 = enumimguiseparatorflags_520094871 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1698:2
+  Imguifocusrequestflagstypedef_520094876 = enumimguifocusrequestflags_520094875 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1703:2
+  Imguitextflagstypedef_520094880 = enumimguitextflags_520094879 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1707:2
+  Imguitooltipflagstypedef_520094884 = enumimguitooltipflags_520094883 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1711:2
+  Imguilayouttypetypedef_520094888 = enumimguilayouttype_520094887 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1715:2
+  Imguilogtype_520094892 = enumimguilogtype_520094891 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1722:2
+  Imguiaxis_520094896 = enumimguiaxis_520094895 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1727:2
+  Imguiplottype_520094900 = enumimguiplottype_520094899 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1731:2
+  Imguipopuppositionpolicy_520094904 = enumimguipopuppositionpolicy_520094903 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1736:2
+  Imguidatatypetempstorage_520094906 = structimguidatatypetempstorage_520094909 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1743:41
   structimguidatatypetempstorage_520094908 {.pure, inheritable, bycopy.} = object
-    Data*: array[8'i64, Imu8_520094479] ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1744:8
+    Data*: array[8'i64, Imu8_520094479] ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1744:8
   
-  Imguidatatypeprivate_520094912 = enumimguidatatypeprivate_520094911 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1759:2
-  Imguicombopreviewdata_520094914 = structimguicombopreviewdata_520094917 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1770:38
+  Imguidatatypeprivate_520094912 = enumimguidatatypeprivate_520094911 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1759:2
+  Imguicombopreviewdata_520094914 = structimguicombopreviewdata_520094917 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1770:38
   structimguicombopreviewdata_520094916 {.pure, inheritable, bycopy.} = object
-    Previewrect*: Imrect_520094245 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1771:8
+    Previewrect*: Imrect_520094245 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1771:8
     Backupcursorpos*: Imvec2_520094507
     Backupcursormaxpos*: Imvec2_520094507
     Backupcursorposprevline*: Imvec2_520094507
     Backupprevlinetextbaseoffset*: cfloat
     Backuplayout*: Imguilayouttype_520094759
 
-  Imguiinputtextdeactivatedstate_520094918 = structimguiinputtextdeactivatedstate_520094921 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1807:47
+  Imguiinputtextdeactivatedstate_520094918 = structimguiinputtextdeactivatedstate_520094921 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1807:47
   structimguiinputtextdeactivatedstate_520094920 {.pure, inheritable, bycopy.} = object
-    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1808:8
+    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1808:8
     Texta*: Imvectorchar_520094657
 
-  Imguinextwindowdataflagstypedef_520094924 = enumimguinextwindowdataflags_520094923 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1856:2
-  Imguiselectionuserdata_520094926 = Ims64_520094489 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1881:15
-  Imguinextitemdataflagstypedef_520094930 = enumimguinextitemdataflags_520094929 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1886:2
-  Imguiwindowstackdata_520094932 = structimguiwindowstackdata_520094935 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1923:37
+  Imguinextwindowdataflagstypedef_520094924 = enumimguinextwindowdataflags_520094923 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1856:2
+  Imguiselectionuserdata_520094926 = Ims64_520094489 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1881:15
+  Imguinextitemdataflagstypedef_520094930 = enumimguinextitemdataflags_520094929 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1886:2
+  Imguiwindowstackdata_520094932 = structimguiwindowstackdata_520094935 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1923:37
   structimguiwindowstackdata_520094934 {.pure, inheritable, bycopy.} = object
-    Window*: ptr Imguiwindow_520094385 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1924:8
+    Window*: ptr Imguiwindow_520094385 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1924:8
     Parentlastitemdatabackup*: Imguilastitemdata_520094291
     Stacksizesonbegin*: Imguistacksizes_520094339
 
-  Imguishrinkwidthitem_520094936 = structimguishrinkwidthitem_520094939 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1930:37
+  Imguishrinkwidthitem_520094936 = structimguishrinkwidthitem_520094939 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1930:37
   structimguishrinkwidthitem_520094938 {.pure, inheritable, bycopy.} = object
-    Index*: cint             ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1931:8
+    Index*: cint             ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1931:8
     Width*: cfloat
     Initialwidth*: cfloat
 
-  Imguiptrorindex_520094940 = structimguiptrorindex_520094943 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1937:32
+  Imguiptrorindex_520094940 = structimguiptrorindex_520094943 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1937:32
   structimguiptrorindex_520094942 {.pure, inheritable, bycopy.} = object
-    Ptr*: pointer            ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1938:8
+    Ptr*: pointer            ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1938:8
     Index*: cint
 
   structimbitarrayimguikeynamedkeycountlessimguikeynamedkeybegin_520094944 {.
       pure, inheritable, bycopy.} = object
-    Storage*: array[5'i64, Imu32_520094487] ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1943:16
+    Storage*: array[5'i64, Imu32_520094487] ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1943:16
   
-  Imbitarrayimguikeynamedkeycountlessimguikeynamedkeybegin_520094946 = structimbitarrayimguikeynamedkeycountlessimguikeynamedkeybegin_520094945 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1943:130
-  Imbitarrayfornamedkeys_520094948 = Imbitarrayimguikeynamedkeycountlessimguikeynamedkeybegin_520094947 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1945:73
-  Imguiinputeventtype_520094952 = enumimguiinputeventtype_520094951 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1956:2
-  Imguiinputsource_520094956 = enumimguiinputsource_520094955 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1964:2
-  Imguiinputeventmousepos_520094958 = structimguiinputeventmousepos_520094961 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1965:40
+  Imbitarrayimguikeynamedkeycountlessimguikeynamedkeybegin_520094946 = structimbitarrayimguikeynamedkeycountlessimguikeynamedkeybegin_520094945 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1943:130
+  Imbitarrayfornamedkeys_520094948 = Imbitarrayimguikeynamedkeycountlessimguikeynamedkeybegin_520094947 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1945:73
+  Imguiinputeventtype_520094952 = enumimguiinputeventtype_520094951 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1956:2
+  Imguiinputsource_520094956 = enumimguiinputsource_520094955 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1964:2
+  Imguiinputeventmousepos_520094958 = structimguiinputeventmousepos_520094961 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1965:40
   structimguiinputeventmousepos_520094960 {.pure, inheritable, bycopy.} = object
-    Posx*: cfloat            ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1966:8
+    Posx*: cfloat            ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1966:8
     Posy*: cfloat
     Mousesource*: Imguimousesource_520094637
 
-  Imguiinputeventmousewheel_520094962 = structimguiinputeventmousewheel_520094965 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1969:42
+  Imguiinputeventmousewheel_520094962 = structimguiinputeventmousewheel_520094965 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1969:42
   structimguiinputeventmousewheel_520094964 {.pure, inheritable, bycopy.} = object
-    Wheelx*: cfloat          ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1970:8
+    Wheelx*: cfloat          ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1970:8
     Wheely*: cfloat
     Mousesource*: Imguimousesource_520094637
 
-  Imguiinputeventmousebutton_520094966 = structimguiinputeventmousebutton_520094969 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1973:43
+  Imguiinputeventmousebutton_520094966 = structimguiinputeventmousebutton_520094969 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1973:43
   structimguiinputeventmousebutton_520094968 {.pure, inheritable, bycopy.} = object
-    Button*: cint            ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1974:8
+    Button*: cint            ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1974:8
     Down*: bool
     Mousesource*: Imguimousesource_520094637
 
-  Imguiinputeventmouseviewport_520094970 = structimguiinputeventmouseviewport_520094973 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1977:45
+  Imguiinputeventmouseviewport_520094970 = structimguiinputeventmouseviewport_520094973 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1977:45
   structimguiinputeventmouseviewport_520094972 {.pure, inheritable, bycopy.} = object
-    Hoveredviewportid*: Imguiid_520094475 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1978:8
+    Hoveredviewportid*: Imguiid_520094475 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1978:8
   
-  Imguiinputeventkey_520094974 = structimguiinputeventkey_520094977 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1981:35
+  Imguiinputeventkey_520094974 = structimguiinputeventkey_520094977 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1981:35
   structimguiinputeventkey_520094976 {.pure, inheritable, bycopy.} = object
-    Key*: Imguikey_520094597 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1982:8
+    Key*: Imguikey_520094597 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1982:8
     Down*: bool
     Analogvalue*: cfloat
 
-  Imguiinputeventtext_520094978 = structimguiinputeventtext_520094981 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1985:36
+  Imguiinputeventtext_520094978 = structimguiinputeventtext_520094981 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1985:36
   structimguiinputeventtext_520094980 {.pure, inheritable, bycopy.} = object
-    Char*: cuint             ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1986:8
+    Char*: cuint             ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1986:8
   
-  Imguiinputeventappfocused_520094982 = structimguiinputeventappfocused_520094985 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1989:42
+  Imguiinputeventappfocused_520094982 = structimguiinputeventappfocused_520094985 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1989:42
   structimguiinputeventappfocused_520094984 {.pure, inheritable, bycopy.} = object
-    Focused*: bool           ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1990:8
+    Focused*: bool           ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1990:8
   
-  Imguiinputevent_520094986 = structimguiinputevent_520094989 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1993:32
+  Imguiinputevent_520094986 = structimguiinputevent_520094989 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1993:32
   structimguiinputevent_anon0_t {.union, bycopy.} = object
     Mousepos*: Imguiinputeventmousepos_520094959
     Mousewheel*: Imguiinputeventmousewheel_520094963
@@ -3674,105 +3674,105 @@ type
     Appfocused*: Imguiinputeventappfocused_520094983
 
   structimguiinputevent_520094988 {.pure, inheritable, bycopy.} = object
-    Type*: Imguiinputeventtype_520094953 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:1994:8
+    Type*: Imguiinputeventtype_520094953 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:1994:8
     Source*: Imguiinputsource_520094957
     Eventid*: Imu32_520094487
     anon0*: structimguiinputevent_anon0_t
     Addedbytestengine*: bool
 
-  Imguikeyroutingindex_520094990 = Ims16_520094481 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2011:15
-  Imguikeyroutingdata_520094992 = structimguikeyroutingdata_520094995 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2012:36
+  Imguikeyroutingindex_520094990 = Ims16_520094481 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2011:15
+  Imguikeyroutingdata_520094992 = structimguikeyroutingdata_520094995 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2012:36
   structimguikeyroutingdata_520094994 {.pure, inheritable, bycopy.} = object
-    Nextentryindex*: Imguikeyroutingindex_520094991 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2013:8
+    Nextentryindex*: Imguikeyroutingindex_520094991 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2013:8
     Mods*: Imu16_520094483
     Routingnextscore*: Imu8_520094479
     Routingcurr*: Imguiid_520094475
     Routingnext*: Imguiid_520094475
 
-  Imguikeyroutingtable_520094996 = structimguikeyroutingtable_520094999 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2021:37
+  Imguikeyroutingtable_520094996 = structimguikeyroutingtable_520094999 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2021:37
   structimguikeyroutingtable_520094998 {.pure, inheritable, bycopy.} = object
-    Index*: array[154'i64, Imguikeyroutingindex_520094991] ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2024:8
+    Index*: array[154'i64, Imguikeyroutingindex_520094991] ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2024:8
     Entries*: Imvectorimguikeyroutingdata_520095003
     Entriesnext*: Imvectorimguikeyroutingdata_520095003
 
   structimvectorimguikeyroutingdata_520095000 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2022:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2022:16
     Capacity*: cint
     Data*: ptr Imguikeyroutingdata_520094993
 
-  Imvectorimguikeyroutingdata_520095002 = structimvectorimguikeyroutingdata_520095001 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2022:96
-  Imguikeyownerdata_520095004 = structimguikeyownerdata_520095007 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2030:34
+  Imvectorimguikeyroutingdata_520095002 = structimvectorimguikeyroutingdata_520095001 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2022:96
+  Imguikeyownerdata_520095004 = structimguikeyownerdata_520095007 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2030:34
   structimguikeyownerdata_520095006 {.pure, inheritable, bycopy.} = object
-    Ownercurr*: Imguiid_520094475 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2031:8
+    Ownercurr*: Imguiid_520094475 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2031:8
     Ownernext*: Imguiid_520094475
     Lockthisframe*: bool
     Lockuntilrelease*: bool
 
-  Imguiinputflagstypedef_520095010 = enumimguiinputflags_520095009 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2063:2
-  Imguilistclipperrange_520095012 = structimguilistclipperrange_520095015 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2064:38
+  Imguiinputflagstypedef_520095010 = enumimguiinputflags_520095009 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2063:2
+  Imguilistclipperrange_520095012 = structimguilistclipperrange_520095015 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2064:38
   structimguilistclipperrange_520095014 {.pure, inheritable, bycopy.} = object
-    Min*: cint               ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2065:8
+    Min*: cint               ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2065:8
     Max*: cint
     Postoindexconvert*: bool
     Postoindexoffsetmin*: Ims8_520094477
     Postoindexoffsetmax*: Ims8_520094477
 
-  Imguilistclipperdata_520095016 = structimguilistclipperdata_520095019 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2073:37
+  Imguilistclipperdata_520095016 = structimguilistclipperdata_520095019 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2073:37
   structimguilistclipperdata_520095018 {.pure, inheritable, bycopy.} = object
-    Listclipper*: ptr Imguilistclipper_520094174 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2076:8
+    Listclipper*: ptr Imguilistclipper_520094174 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2076:8
     Lossynessoffset*: cfloat
     Stepno*: cint
     Itemsfrozen*: cint
     Ranges*: Imvectorimguilistclipperrange_520095023
 
   structimvectorimguilistclipperrange_520095020 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2074:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2074:16
     Capacity*: cint
     Data*: ptr Imguilistclipperrange_520095013
 
-  Imvectorimguilistclipperrange_520095022 = structimvectorimguilistclipperrange_520095021 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2074:100
-  Imguiactivateflagstypedef_520095026 = enumimguiactivateflags_520095025 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2089:2
-  Imguiscrollflagstypedef_520095030 = enumimguiscrollflags_520095029 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2101:2
-  Imguinavhighlightflagstypedef_520095034 = enumimguinavhighlightflags_520095033 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2108:2
-  Imguinavmoveflagstypedef_520095038 = enumimguinavmoveflags_520095037 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2127:2
-  Imguinavlayer_520095042 = enumimguinavlayer_520095041 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2132:2
-  Imguitypingselectflagstypedef_520095046 = enumimguitypingselectflags_520095045 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2149:2
-  Imguioldcolumnflagstypedef_520095050 = enumimguioldcolumnflags_520095049 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2175:2
+  Imvectorimguilistclipperrange_520095022 = structimvectorimguilistclipperrange_520095021 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2074:100
+  Imguiactivateflagstypedef_520095026 = enumimguiactivateflags_520095025 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2089:2
+  Imguiscrollflagstypedef_520095030 = enumimguiscrollflags_520095029 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2101:2
+  Imguinavhighlightflagstypedef_520095034 = enumimguinavhighlightflags_520095033 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2108:2
+  Imguinavmoveflagstypedef_520095038 = enumimguinavmoveflags_520095037 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2127:2
+  Imguinavlayer_520095042 = enumimguinavlayer_520095041 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2132:2
+  Imguitypingselectflagstypedef_520095046 = enumimguitypingselectflags_520095045 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2149:2
+  Imguioldcolumnflagstypedef_520095050 = enumimguioldcolumnflags_520095049 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2175:2
   structimvectorimguioldcolumndata_520095052 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2183:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2183:16
     Capacity*: cint
     Data*: ptr Imguioldcolumndata_520094323
 
-  Imvectorimguioldcolumndata_520095054 = structimvectorimguioldcolumndata_520095053 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2183:94
-  Imguidocknodeflagsprivate_520095058 = enumimguidocknodeflagsprivate_520095057 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2221:2
-  Imguidataauthoritytypedef_520095062 = enumimguidataauthority_520095061 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2226:2
-  Imguidocknodestate_520095066 = enumimguidocknodestate_520095065 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2232:2
+  Imvectorimguioldcolumndata_520095054 = structimvectorimguioldcolumndata_520095053 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2183:94
+  Imguidocknodeflagsprivate_520095058 = enumimguidocknodeflagsprivate_520095057 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2221:2
+  Imguidataauthoritytypedef_520095062 = enumimguidataauthority_520095061 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2226:2
+  Imguidocknodestate_520095066 = enumimguidocknodestate_520095065 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2232:2
   structimvectorimguiwindowptr_520095068 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2233:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2233:16
     Capacity*: cint
     Data*: ptr ptr Imguiwindow_520094385
 
-  Imvectorimguiwindowptr_520095070 = structimvectorimguiwindowptr_520095069 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2233:84
-  Imguiwindowdockstylecol_520095074 = enumimguiwindowdockstylecol_520095073 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2288:2
-  Imguiwindowdockstyle_520095076 = structimguiwindowdockstyle_520095079 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2289:37
+  Imvectorimguiwindowptr_520095070 = structimvectorimguiwindowptr_520095069 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2233:84
+  Imguiwindowdockstylecol_520095074 = enumimguiwindowdockstylecol_520095073 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2288:2
+  Imguiwindowdockstyle_520095076 = structimguiwindowdockstyle_520095079 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2289:37
   structimguiwindowdockstyle_520095078 {.pure, inheritable, bycopy.} = object
-    Colors*: array[6'i64, Imu32_520094487] ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2290:8
+    Colors*: array[6'i64, Imu32_520094487] ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2290:8
   
   structimvectorimguidockrequest_520095080 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2294:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2294:16
     Capacity*: cint
     Data*: ptr Imguidockrequest_520094273
 
-  Imvectorimguidockrequest_520095082 = structimvectorimguidockrequest_520095081 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2294:90
+  Imvectorimguidockrequest_520095082 = structimvectorimguidockrequest_520095081 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2294:90
   structimvectorimguidocknodesettings_520095084 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2296:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2296:16
     Capacity*: cint
     Data*: ptr Imguidocknodesettings_520094279
 
-  Imvectorimguidocknodesettings_520095086 = structimvectorimguidocknodesettings_520095085 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2296:100
-  Imguiviewportp_520095088 = structimguiviewportp_520095091 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2305:31
+  Imvectorimguidocknodesettings_520095086 = structimvectorimguidocknodesettings_520095085 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2296:100
+  Imguiviewportp_520095088 = structimguiviewportp_520095091 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2305:31
   structimguiviewportp_520095090 {.pure, inheritable, bycopy.} = object
-    internalimguiviewport*: Imguiviewport_520094233 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2306:8
+    internalimguiviewport*: Imguiviewport_520094233 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2306:8
     Window*: ptr Imguiwindow_520094385
     Idx*: cint
     Lastframeactive*: cint
@@ -3795,32 +3795,32 @@ type
     Buildworkoffsetmin*: Imvec2_520094507
     Buildworkoffsetmax*: Imvec2_520094507
 
-  Imguilockey_520095094 = enumimguilockey_520095093 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2371:2
-  Imguidebuglogflagstypedef_520095098 = enumimguidebuglogflags_520095097 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2391:2
-  Imguidebugallocentry_520095100 = structimguidebugallocentry_520095103 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2392:37
+  Imguilockey_520095094 = enumimguilockey_520095093 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2371:2
+  Imguidebuglogflagstypedef_520095098 = enumimguidebuglogflags_520095097 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2391:2
+  Imguidebugallocentry_520095100 = structimguidebugallocentry_520095103 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2392:37
   structimguidebugallocentry_520095102 {.pure, inheritable, bycopy.} = object
-    Framecount*: cint        ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2393:8
+    Framecount*: cint        ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2393:8
     Alloccount*: Ims16_520094481
     Freecount*: Ims16_520094481
 
-  Imguidebugallocinfo_520095104 = structimguidebugallocinfo_520095107 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2399:36
+  Imguidebugallocinfo_520095104 = structimguidebugallocinfo_520095107 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2399:36
   structimguidebugallocinfo_520095106 {.pure, inheritable, bycopy.} = object
-    Totalalloccount*: cint   ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2400:8
+    Totalalloccount*: cint   ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2400:8
     Totalfreecount*: cint
     Lastentriesidx*: Ims16_520094481
     Lastentriesbuf*: array[6'i64, Imguidebugallocentry_520095101]
 
-  Imguistacklevelinfo_520095108 = structimguistacklevelinfo_520095111 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2421:36
+  Imguistacklevelinfo_520095108 = structimguistacklevelinfo_520095111 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2421:36
   structimguistacklevelinfo_520095110 {.pure, inheritable, bycopy.} = object
-    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2422:8
+    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2422:8
     Queryframecount*: Ims8_520094477
     Querysuccess*: bool
     Datatype*: Imguidatatype_520094405
     Desc*: array[57'i64, cschar]
 
-  Imguiidstacktool_520095112 = structimguiidstacktool_520095115 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2430:33
+  Imguiidstacktool_520095112 = structimguiidstacktool_520095115 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2430:33
   structimguiidstacktool_520095114 {.pure, inheritable, bycopy.} = object
-    Lastactiveframe*: cint   ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2433:8
+    Lastactiveframe*: cint   ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2433:8
     Stacklevel*: cint
     Queryid*: Imguiid_520094475
     Results*: Imvectorimguistacklevelinfo_520095119
@@ -3828,201 +3828,201 @@ type
     Copytoclipboardlasttime*: cfloat
 
   structimvectorimguistacklevelinfo_520095116 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2431:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2431:16
     Capacity*: cint
     Data*: ptr Imguistacklevelinfo_520095109
 
-  Imvectorimguistacklevelinfo_520095118 = structimvectorimguistacklevelinfo_520095117 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2431:96
+  Imvectorimguistacklevelinfo_520095118 = structimvectorimguistacklevelinfo_520095117 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2431:96
   Imguicontexthookcallback_520095120 = proc (a0: ptr Imguicontext_520094158;
-      a1: ptr Imguicontexthook_520094257): void {.cdecl.} ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2442:16
-  Imguicontexthooktype_520095124 = enumimguicontexthooktype_520095123 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2443:288
+      a1: ptr Imguicontexthook_520094257): void {.cdecl.} ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2442:16
+  Imguicontexthooktype_520095124 = enumimguicontexthooktype_520095123 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2443:288
   structimvectorimguiinputevent_520095126 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2452:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2452:16
     Capacity*: cint
     Data*: ptr Imguiinputevent_520094987
 
-  Imvectorimguiinputevent_520095128 = structimvectorimguiinputevent_520095127 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2452:88
+  Imvectorimguiinputevent_520095128 = structimvectorimguiinputevent_520095127 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2452:88
   structimvectorimguiwindowstackdata_520095130 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2454:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2454:16
     Capacity*: cint
     Data*: ptr Imguiwindowstackdata_520094933
 
-  Imvectorimguiwindowstackdata_520095132 = structimvectorimguiwindowstackdata_520095131 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2454:98
+  Imvectorimguiwindowstackdata_520095132 = structimvectorimguiwindowstackdata_520095131 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2454:98
   structimvectorimguicolormod_520095134 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2456:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2456:16
     Capacity*: cint
     Data*: ptr Imguicolormod_520094253
 
-  Imvectorimguicolormod_520095136 = structimvectorimguicolormod_520095135 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2456:84
+  Imvectorimguicolormod_520095136 = structimvectorimguicolormod_520095135 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2456:84
   structimvectorimguistylemod_520095138 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2458:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2458:16
     Capacity*: cint
     Data*: ptr Imguistylemod_520094343
 
-  Imvectorimguistylemod_520095140 = structimvectorimguistylemod_520095139 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2458:84
+  Imvectorimguistylemod_520095140 = structimvectorimguistylemod_520095139 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2458:84
   structimvectorimguiid_520095142 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2460:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2460:16
     Capacity*: cint
     Data*: ptr Imguiid_520094475
 
-  Imvectorimguiid_520095144 = structimvectorimguiid_520095143 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2460:72
+  Imvectorimguiid_520095144 = structimvectorimguiid_520095143 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2460:72
   structimvectorimguiitemflags_520095146 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2462:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2462:16
     Capacity*: cint
     Data*: ptr Imguiitemflags_520094769
 
-  Imvectorimguiitemflags_520095148 = structimvectorimguiitemflags_520095147 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2462:86
+  Imvectorimguiitemflags_520095148 = structimvectorimguiitemflags_520095147 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2462:86
   structimvectorimguigroupdata_520095150 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2464:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2464:16
     Capacity*: cint
     Data*: ptr Imguigroupdata_520094281
 
-  Imvectorimguigroupdata_520095152 = structimvectorimguigroupdata_520095151 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2464:86
+  Imvectorimguigroupdata_520095152 = structimvectorimguigroupdata_520095151 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2464:86
   structimvectorimguipopupdata_520095154 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2466:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2466:16
     Capacity*: cint
     Data*: ptr Imguipopupdata_520094331
 
-  Imvectorimguipopupdata_520095156 = structimvectorimguipopupdata_520095155 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2466:86
+  Imvectorimguipopupdata_520095156 = structimvectorimguipopupdata_520095155 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2466:86
   structimvectorimguinavtreenodedata_520095158 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2468:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2468:16
     Capacity*: cint
     Data*: ptr Imguinavtreenodedata_520094307
 
-  Imvectorimguinavtreenodedata_520095160 = structimvectorimguinavtreenodedata_520095159 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2468:98
+  Imvectorimguinavtreenodedata_520095160 = structimvectorimguinavtreenodedata_520095159 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2468:98
   structimvectorimguiviewportpptr_520095162 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2470:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2470:16
     Capacity*: cint
     Data*: ptr ptr Imguiviewportp_520095089
 
-  Imvectorimguiviewportpptr_520095164 = structimvectorimguiviewportpptr_520095163 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2470:90
+  Imvectorimguiviewportpptr_520095164 = structimvectorimguiviewportpptr_520095163 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2470:90
   structimvectorunsignedchar_520095166 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2472:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2472:16
     Capacity*: cint
     Data*: ptr uint8
 
-  Imvectorunsignedchar_520095168 = structimvectorunsignedchar_520095167 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2472:84
+  Imvectorunsignedchar_520095168 = structimvectorunsignedchar_520095167 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2472:84
   structimvectorimguilistclipperdata_520095170 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2474:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2474:16
     Capacity*: cint
     Data*: ptr Imguilistclipperdata_520095017
 
-  Imvectorimguilistclipperdata_520095172 = structimvectorimguilistclipperdata_520095171 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2474:98
+  Imvectorimguilistclipperdata_520095172 = structimvectorimguilistclipperdata_520095171 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2474:98
   structimvectorimguitabletempdata_520095174 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2476:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2476:16
     Capacity*: cint
     Data*: ptr Imguitabletempdata_520094367
 
-  Imvectorimguitabletempdata_520095176 = structimvectorimguitabletempdata_520095175 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2476:94
+  Imvectorimguitabletempdata_520095176 = structimvectorimguitabletempdata_520095175 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2476:94
   structimvectorimguitable_520095178 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2478:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2478:16
     Capacity*: cint
     Data*: ptr Imguitable_520094355
 
-  Imvectorimguitable_520095180 = structimvectorimguitable_520095179 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2478:78
+  Imvectorimguitable_520095180 = structimvectorimguitable_520095179 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2478:78
   structimpoolimguitable_520095182 {.pure, inheritable, bycopy.} = object
-    Buf*: Imvectorimguitable_520095181 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2480:16
+    Buf*: Imvectorimguitable_520095181 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2480:16
     Map*: Imguistorage_520094209
     Freeidx*: Impoolidx_520094825
     Alivecount*: Impoolidx_520094825
 
-  Impoolimguitable_520095184 = structimpoolimguitable_520095183 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2480:117
+  Impoolimguitable_520095184 = structimpoolimguitable_520095183 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2480:117
   structimvectorimguitabbar_520095186 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2482:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2482:16
     Capacity*: cint
     Data*: ptr Imguitabbar_520094347
 
-  Imvectorimguitabbar_520095188 = structimvectorimguitabbar_520095187 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2482:80
+  Imvectorimguitabbar_520095188 = structimvectorimguitabbar_520095187 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2482:80
   structimpoolimguitabbar_520095190 {.pure, inheritable, bycopy.} = object
-    Buf*: Imvectorimguitabbar_520095189 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2484:16
+    Buf*: Imvectorimguitabbar_520095189 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2484:16
     Map*: Imguistorage_520094209
     Freeidx*: Impoolidx_520094825
     Alivecount*: Impoolidx_520094825
 
-  Impoolimguitabbar_520095192 = structimpoolimguitabbar_520095191 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2484:119
+  Impoolimguitabbar_520095192 = structimpoolimguitabbar_520095191 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2484:119
   structimvectorimguiptrorindex_520095194 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2486:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2486:16
     Capacity*: cint
     Data*: ptr Imguiptrorindex_520094941
 
-  Imvectorimguiptrorindex_520095196 = structimvectorimguiptrorindex_520095195 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2486:88
+  Imvectorimguiptrorindex_520095196 = structimvectorimguiptrorindex_520095195 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2486:88
   structimvectorimguishrinkwidthitem_520095198 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2488:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2488:16
     Capacity*: cint
     Data*: ptr Imguishrinkwidthitem_520094937
 
-  Imvectorimguishrinkwidthitem_520095200 = structimvectorimguishrinkwidthitem_520095199 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2488:98
+  Imvectorimguishrinkwidthitem_520095200 = structimvectorimguishrinkwidthitem_520095199 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2488:98
   structimvectorimguisettingshandler_520095202 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2490:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2490:16
     Capacity*: cint
     Data*: ptr Imguisettingshandler_520094335
 
-  Imvectorimguisettingshandler_520095204 = structimvectorimguisettingshandler_520095203 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2490:98
+  Imvectorimguisettingshandler_520095204 = structimvectorimguisettingshandler_520095203 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2490:98
   structimchunkstreamimguiwindowsettings_520095206 {.pure, inheritable, bycopy.} = object
-    Buf*: Imvectorchar_520094657 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2492:16
+    Buf*: Imvectorchar_520094657 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2492:16
   
-  Imchunkstreamimguiwindowsettings_520095208 = structimchunkstreamimguiwindowsettings_520095207 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2492:71
+  Imchunkstreamimguiwindowsettings_520095208 = structimchunkstreamimguiwindowsettings_520095207 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2492:71
   structimchunkstreamimguitablesettings_520095210 {.pure, inheritable, bycopy.} = object
-    Buf*: Imvectorchar_520094657 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2494:16
+    Buf*: Imvectorchar_520094657 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2494:16
   
-  Imchunkstreamimguitablesettings_520095212 = structimchunkstreamimguitablesettings_520095211 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2494:70
+  Imchunkstreamimguitablesettings_520095212 = structimchunkstreamimguitablesettings_520095211 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2494:70
   structimvectorimguicontexthook_520095214 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2496:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2496:16
     Capacity*: cint
     Data*: ptr Imguicontexthook_520094257
 
-  Imvectorimguicontexthook_520095216 = structimvectorimguicontexthook_520095215 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2496:90
+  Imvectorimguicontexthook_520095216 = structimvectorimguicontexthook_520095215 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2496:90
   structimvectorimguioldcolumns_520095218 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2805:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2805:16
     Capacity*: cint
     Data*: ptr Imguioldcolumns_520094327
 
-  Imvectorimguioldcolumns_520095220 = structimvectorimguioldcolumns_520095219 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2805:88
-  Imguitabbarflagsprivate_520095224 = enumimguitabbarflagsprivate_520095223 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2928:2
-  Imguitabitemflagsprivate_520095228 = enumimguitabitemflagsprivate_520095227 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2934:2
+  Imvectorimguioldcolumns_520095220 = structimvectorimguioldcolumns_520095219 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2805:88
+  Imguitabbarflagsprivate_520095224 = enumimguitabbarflagsprivate_520095223 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2928:2
+  Imguitabitemflagsprivate_520095228 = enumimguitabitemflagsprivate_520095227 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2934:2
   structimvectorimguitabitem_520095230 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2951:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2951:16
     Capacity*: cint
     Data*: ptr Imguitabitem_520094351
 
-  Imvectorimguitabitem_520095232 = structimvectorimguitabitem_520095231 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2951:82
-  Imguitablecolumnidx_520095234 = Ims16_520094481 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2989:15
-  Imguitabledrawchannelidx_520095236 = Imu16_520094483 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:2990:15
-  Imguitablecelldata_520095238 = structimguitablecelldata_520095241 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:3035:35
+  Imvectorimguitabitem_520095232 = structimvectorimguitabitem_520095231 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2951:82
+  Imguitablecolumnidx_520095234 = Ims16_520094481 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2989:15
+  Imguitabledrawchannelidx_520095236 = Imu16_520094483 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:2990:15
+  Imguitablecelldata_520095238 = structimguitablecelldata_520095241 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:3035:35
   structimguitablecelldata_520095240 {.pure, inheritable, bycopy.} = object
-    Bgcolor*: Imu32_520094487 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:3036:8
+    Bgcolor*: Imu32_520094487 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:3036:8
     Column*: Imguitablecolumnidx_520095235
 
   structimspanimguitablecolumn_520095242 {.pure, inheritable, bycopy.} = object
-    Data*: ptr Imguitablecolumn_520094359 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:3050:16
+    Data*: ptr Imguitablecolumn_520094359 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:3050:16
     Dataend*: ptr Imguitablecolumn_520094359
 
-  Imspanimguitablecolumn_520095244 = structimspanimguitablecolumn_520095243 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:3050:92
+  Imspanimguitablecolumn_520095244 = structimspanimguitablecolumn_520095243 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:3050:92
   structimspanimguitablecolumnidx_520095246 {.pure, inheritable, bycopy.} = object
-    Data*: ptr Imguitablecolumnidx_520095235 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:3052:16
+    Data*: ptr Imguitablecolumnidx_520095235 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:3052:16
     Dataend*: ptr Imguitablecolumnidx_520095235
 
-  Imspanimguitablecolumnidx_520095248 = structimspanimguitablecolumnidx_520095247 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:3052:101
+  Imspanimguitablecolumnidx_520095248 = structimspanimguitablecolumnidx_520095247 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:3052:101
   structimspanimguitablecelldata_520095250 {.pure, inheritable, bycopy.} = object
-    Data*: ptr Imguitablecelldata_520095239 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:3054:16
+    Data*: ptr Imguitablecelldata_520095239 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:3054:16
     Dataend*: ptr Imguitablecelldata_520095239
 
-  Imspanimguitablecelldata_520095252 = structimspanimguitablecelldata_520095251 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:3054:98
+  Imspanimguitablecelldata_520095252 = structimspanimguitablecelldata_520095251 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:3054:98
   structimvectorimguitableinstancedata_520095254 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:3056:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:3056:16
     Capacity*: cint
     Data*: ptr Imguitableinstancedata_520094363
 
-  Imvectorimguitableinstancedata_520095256 = structimvectorimguitableinstancedata_520095255 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:3056:102
+  Imvectorimguitableinstancedata_520095256 = structimvectorimguitableinstancedata_520095255 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:3056:102
   structimvectorimguitablecolumnsortspecs_520095258 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:3058:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:3058:16
     Capacity*: cint
     Data*: ptr Imguitablecolumnsortspecs_520094221
 
-  Imvectorimguitablecolumnsortspecs_520095260 = structimvectorimguitablecolumnsortspecs_520095259 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:3058:108
-  Imguitablecolumnsettings_520095262 = structimguitablecolumnsettings_520095265 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:3191:41
+  Imvectorimguitablecolumnsortspecs_520095260 = structimvectorimguitablecolumnsortspecs_520095259 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:3058:108
+  Imguitablecolumnsettings_520095262 = structimguitablecolumnsettings_520095265 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:3191:41
   structimguitablecolumnsettings_520095264 {.pure, inheritable, bycopy.} = object
-    Widthorweight*: cfloat   ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:3192:8
+    Widthorweight*: cfloat   ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:3192:8
     Userid*: Imguiid_520094475
     Index*: Imguitablecolumnidx_520095235
     Displayorder*: Imguitablecolumnidx_520095235
@@ -4031,10 +4031,10 @@ type
     Isenabled*: Imu8_520094479
     Isstretch*: Imu8_520094479
 
-  Sdlwindow_520095266 = structsdlwindow ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/generator/output/cimgui_impl.h:48:27
-  Sdlrenderer_520095268 = structsdlrenderer ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/generator/output/cimgui_impl.h:49:29
-  Sdlevent_520095270 = unionsdlevent ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/generator/output/cimgui_impl.h:52:25
-  tm_520095272 = structtm_520095275 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:11:19
+  Sdlwindow_520095266 = structsdlwindow ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/generator/output/cimgui_impl.h:48:27
+  Sdlrenderer_520095268 = structsdlrenderer ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/generator/output/cimgui_impl.h:49:29
+  Sdlevent_520095270 = unionsdlevent ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/generator/output/cimgui_impl.h:52:25
+  tm_520095272 = structtm_520095275 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:11:19
   structtm_520095274 {.pure, inheritable, bycopy.} = object
     tmsec*: cint             ## Generated based on /usr/include/bits/types/struct_tm.h:7:8
     tmmin*: cint
@@ -4048,9 +4048,9 @@ type
     tmgmtoff*: clong
     tmzone*: cstring
 
-  Implotcontext_520095276 = structimplotcontext_520095279 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:14:30
+  Implotcontext_520095276 = structimplotcontext_520095279 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:14:30
   structimplotcontext_520095278 {.pure, inheritable, bycopy.} = object
-    Plots*: Impoolimplotplot_520095671 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:740:8
+    Plots*: Impoolimplotplot_520095671 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:740:8
     Subplots*: Impoolimplotsubplot_520095679
     Currentplot*: ptr Implotplot_520095299
     Currentsubplot*: ptr Implotsubplot_520095649
@@ -4082,9 +4082,9 @@ type
     Currentalignmenth*: ptr Implotalignmentdata_520095633
     Currentalignmentv*: ptr Implotalignmentdata_520095633
 
-  Implottick_520095280 = structimplottick_520095283 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:15:27
+  Implottick_520095280 = structimplottick_520095283 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:15:27
   structimplottick_520095282 {.pure, inheritable, bycopy.} = object
-    Plotpos*: cdouble        ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:535:8
+    Plotpos*: cdouble        ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:535:8
     Pixelpos*: cfloat
     Labelsize*: Imvec2_520094507
     Textoffset*: cint
@@ -4093,9 +4093,9 @@ type
     Level*: cint
     Idx*: cint
 
-  Implotaxis_520095284 = structimplotaxis_520095287 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:16:27
+  Implotaxis_520095284 = structimplotaxis_520095287 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:16:27
   structimplotaxis_520095286 {.pure, inheritable, bycopy.} = object
-    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:556:8
+    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:556:8
     Flags*: Implotaxisflags_520095343
     Previousflags*: Implotaxisflags_520095343
     Range*: Implotrange_520095541
@@ -4144,10 +4144,10 @@ type
     Hovered*: bool
     Held*: bool
 
-  Implotaxiscolor_520095288 = structimplotaxiscolor ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:17:32
-  Implotitem_520095290 = structimplotitem_520095293 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:18:27
+  Implotaxiscolor_520095288 = structimplotaxiscolor ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:17:32
+  Implotitem_520095290 = structimplotitem_520095293 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:18:27
   structimplotitem_520095292 {.pure, inheritable, bycopy.} = object
-    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:605:8
+    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:605:8
     Color*: Imu32_520094487
     Legendhoverrect*: Imrect_520094245
     Nameoffset*: cint
@@ -4155,9 +4155,9 @@ type
     Legendhovered*: bool
     Seenthisframe*: bool
 
-  Implotlegend_520095294 = structimplotlegend_520095297 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:19:29
+  Implotlegend_520095294 = structimplotlegend_520095297 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:19:29
   structimplotlegend_520095296 {.pure, inheritable, bycopy.} = object
-    Flags*: Implotlegendflags_520095347 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:615:8
+    Flags*: Implotlegendflags_520095347 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:615:8
     Previousflags*: Implotlegendflags_520095347
     Location*: Implotlocation_520095401
     Previouslocation*: Implotlocation_520095401
@@ -4168,9 +4168,9 @@ type
     Held*: bool
     Cangoinside*: bool
 
-  Implotplot_520095298 = structimplotplot_520095301 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:20:27
+  Implotplot_520095298 = structimplotplot_520095301 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:20:27
   structimplotplot_520095300 {.pure, inheritable, bycopy.} = object
-    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:640:8
+    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:640:8
     Flags*: Implotflags_520095341
     Previousflags*: Implotflags_520095341
     Mousetextlocation*: Implotlocation_520095401
@@ -4197,149 +4197,149 @@ type
     Selected*: bool
     Contextlocked*: bool
 
-  Implotnextplotdata_520095302 = structimplotnextplotdata_520095305 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:21:35
+  Implotnextplotdata_520095302 = structimplotnextplotdata_520095305 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:21:35
   structimplotnextplotdata_520095304 {.pure, inheritable, bycopy.} = object
-    Rangecond*: array[6'i64, Implotcond_520095389] ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:696:8
+    Rangecond*: array[6'i64, Implotcond_520095389] ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:696:8
     Range*: array[6'i64, Implotrange_520095541]
     Hasrange*: array[6'i64, bool]
     Fit*: array[6'i64, bool]
     Linkedmin*: array[6'i64, ptr cdouble]
     Linkedmax*: array[6'i64, ptr cdouble]
 
-  Implotticker_520095306 = structimplotticker_520095309 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:22:29
+  Implotticker_520095306 = structimplotticker_520095309 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:22:29
   structimplotticker_520095308 {.pure, inheritable, bycopy.} = object
-    Ticks*: Imvectorimplottick_520095631 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:548:8
+    Ticks*: Imvectorimplottick_520095631 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:548:8
     Textbuffer*: Imguitextbuffer_520094225
     Maxsize*: Imvec2_520094507
     Latesize*: Imvec2_520094507
     Levels*: cint
 
   structimvectorims16_520095310 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:23:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:23:16
     Capacity*: cint
     Data*: ptr Ims16_520094481
 
-  Imvectorims16_520095312 = structimvectorims16_520095311 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:23:68
+  Imvectorims16_520095312 = structimvectorims16_520095311 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:23:68
   structimvectorims32_520095314 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:25:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:25:16
     Capacity*: cint
     Data*: ptr Ims32_520094485
 
-  Imvectorims32_520095316 = structimvectorims32_520095315 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:25:68
+  Imvectorims32_520095316 = structimvectorims32_520095315 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:25:68
   structimvectorims64_520095318 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:27:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:27:16
     Capacity*: cint
     Data*: ptr Ims64_520094489
 
-  Imvectorims64_520095320 = structimvectorims64_520095319 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:27:68
+  Imvectorims64_520095320 = structimvectorims64_520095319 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:27:68
   structimvectorims8_520095322 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:29:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:29:16
     Capacity*: cint
     Data*: cstring
 
-  Imvectorims8_520095324 = structimvectorims8_520095323 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:29:66
+  Imvectorims8_520095324 = structimvectorims8_520095323 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:29:66
   structimvectorimu16_520095326 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:31:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:31:16
     Capacity*: cint
     Data*: ptr Imu16_520094483
 
-  Imvectorimu16_520095328 = structimvectorimu16_520095327 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:31:68
+  Imvectorimu16_520095328 = structimvectorimu16_520095327 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:31:68
   structimvectorimu64_520095330 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:33:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:33:16
     Capacity*: cint
     Data*: ptr Imu64_520094491
 
-  Imvectorimu64_520095332 = structimvectorimu64_520095331 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:33:68
+  Imvectorimu64_520095332 = structimvectorimu64_520095331 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:33:68
   structimvectorimu8_520095334 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:35:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:35:16
     Capacity*: cint
     Data*: ptr Imu8_520094479
 
-  Imvectorimu8_520095336 = structimvectorimu8_520095335 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:35:66
-  Imaxis_520095338 = cint    ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:38:13
-  Implotflags_520095340 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:39:13
-  Implotaxisflags_520095342 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:40:13
-  Implotsubplotflags_520095344 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:41:13
-  Implotlegendflags_520095346 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:42:13
-  Implotmousetextflags_520095348 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:43:13
-  Implotdragtoolflags_520095350 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:44:13
-  Implotcolormapscaleflags_520095352 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:45:13
-  Implotitemflags_520095354 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:46:13
-  Implotlineflags_520095356 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:47:13
-  Implotscatterflags_520095358 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:48:13
-  Implotstairsflags_520095360 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:49:13
-  Implotshadedflags_520095362 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:50:13
-  Implotbarsflags_520095364 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:51:13
-  Implotbargroupsflags_520095366 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:52:13
-  Imploterrorbarsflags_520095368 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:53:13
-  Implotstemsflags_520095370 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:54:13
-  Implotinflinesflags_520095372 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:55:13
-  Implotpiechartflags_520095374 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:56:13
-  Implotheatmapflags_520095376 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:57:13
-  Implothistogramflags_520095378 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:58:13
-  Implotdigitalflags_520095380 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:59:13
-  Implotimageflags_520095382 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:60:13
-  Implottextflags_520095384 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:61:13
-  Implotdummyflags_520095386 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:62:13
-  Implotcond_520095388 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:63:13
-  Implotcol_520095390 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:64:13
-  Implotstylevar_520095392 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:65:13
-  Implotscale_520095394 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:66:13
-  Implotmarker_520095396 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:67:13
-  Implotcolormap_520095398 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:68:13
-  Implotlocation_520095400 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:69:13
-  Implotbin_520095402 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:70:13
-  Imaxistypedef_520095406 = enumimaxis_520095405 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:79:2
-  Implotflagstypedef_520095410 = enumimplotflags_520095409 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:93:2
-  Implotaxisflagstypedef_520095414 = enumimplotaxisflags_520095413 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:115:2
-  Implotsubplotflagstypedef_520095418 = enumimplotsubplotflags_520095417 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:129:2
-  Implotlegendflagstypedef_520095422 = enumimplotlegendflags_520095421 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:139:2
-  Implotmousetextflagstypedef_520095426 = enumimplotmousetextflags_520095425 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:145:2
-  Implotdragtoolflagstypedef_520095430 = enumimplotdragtoolflags_520095429 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:152:2
-  Implotcolormapscaleflagstypedef_520095434 = enumimplotcolormapscaleflags_520095433 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:158:2
-  Implotitemflagstypedef_520095438 = enumimplotitemflags_520095437 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:163:2
-  Implotlineflagstypedef_520095442 = enumimplotlineflags_520095441 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:171:2
-  Implotscatterflagstypedef_520095446 = enumimplotscatterflags_520095445 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:175:2
-  Implotstairsflagstypedef_520095450 = enumimplotstairsflags_520095449 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:180:2
-  Implotshadedflagstypedef_520095454 = enumimplotshadedflags_520095453 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:183:2
-  Implotbarsflagstypedef_520095458 = enumimplotbarsflags_520095457 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:187:2
-  Implotbargroupsflagstypedef_520095462 = enumimplotbargroupsflags_520095461 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:192:2
-  Imploterrorbarsflagstypedef_520095466 = enumimploterrorbarsflags_520095465 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:196:2
-  Implotstemsflagstypedef_520095470 = enumimplotstemsflags_520095469 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:200:2
-  Implotinflinesflagstypedef_520095474 = enumimplotinflinesflags_520095473 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:204:2
-  Implotpiechartflagstypedef_520095478 = enumimplotpiechartflags_520095477 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:208:2
-  Implotheatmapflagstypedef_520095482 = enumimplotheatmapflags_520095481 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:212:2
-  Implothistogramflagstypedef_520095486 = enumimplothistogramflags_520095485 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:220:2
-  Implotdigitalflagstypedef_520095490 = enumimplotdigitalflags_520095489 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:223:2
-  Implotimageflagstypedef_520095494 = enumimplotimageflags_520095493 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:226:2
-  Implottextflagstypedef_520095498 = enumimplottextflags_520095497 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:230:2
-  Implotdummyflagstypedef_520095502 = enumimplotdummyflags_520095501 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:233:2
-  Implotcondtypedef_520095506 = enumimplotcond_520095505 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:238:2
-  Implotcoltypedef_520095510 = enumimplotcol_520095509 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:262:2
-  Implotstylevartypedef_520095514 = enumimplotstylevar_520095513 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:292:2
-  Implotscaletypedef_520095518 = enumimplotscale_520095517 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:298:2
-  Implotmarkertypedef_520095522 = enumimplotmarker_520095521 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:312:2
-  Implotcolormaptypedef_520095526 = enumimplotcolormap_520095525 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:330:2
-  Implotlocationtypedef_520095530 = enumimplotlocation_520095529 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:341:2
-  Implotbintypedef_520095534 = enumimplotbin_520095533 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:347:2
-  Implotpoint_520095536 = structimplotpoint_520095539 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:348:28
+  Imvectorimu8_520095336 = structimvectorimu8_520095335 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:35:66
+  Imaxis_520095338 = cint    ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:38:13
+  Implotflags_520095340 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:39:13
+  Implotaxisflags_520095342 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:40:13
+  Implotsubplotflags_520095344 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:41:13
+  Implotlegendflags_520095346 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:42:13
+  Implotmousetextflags_520095348 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:43:13
+  Implotdragtoolflags_520095350 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:44:13
+  Implotcolormapscaleflags_520095352 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:45:13
+  Implotitemflags_520095354 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:46:13
+  Implotlineflags_520095356 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:47:13
+  Implotscatterflags_520095358 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:48:13
+  Implotstairsflags_520095360 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:49:13
+  Implotshadedflags_520095362 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:50:13
+  Implotbarsflags_520095364 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:51:13
+  Implotbargroupsflags_520095366 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:52:13
+  Imploterrorbarsflags_520095368 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:53:13
+  Implotstemsflags_520095370 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:54:13
+  Implotinflinesflags_520095372 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:55:13
+  Implotpiechartflags_520095374 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:56:13
+  Implotheatmapflags_520095376 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:57:13
+  Implothistogramflags_520095378 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:58:13
+  Implotdigitalflags_520095380 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:59:13
+  Implotimageflags_520095382 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:60:13
+  Implottextflags_520095384 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:61:13
+  Implotdummyflags_520095386 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:62:13
+  Implotcond_520095388 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:63:13
+  Implotcol_520095390 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:64:13
+  Implotstylevar_520095392 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:65:13
+  Implotscale_520095394 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:66:13
+  Implotmarker_520095396 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:67:13
+  Implotcolormap_520095398 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:68:13
+  Implotlocation_520095400 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:69:13
+  Implotbin_520095402 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:70:13
+  Imaxistypedef_520095406 = enumimaxis_520095405 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:79:2
+  Implotflagstypedef_520095410 = enumimplotflags_520095409 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:93:2
+  Implotaxisflagstypedef_520095414 = enumimplotaxisflags_520095413 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:115:2
+  Implotsubplotflagstypedef_520095418 = enumimplotsubplotflags_520095417 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:129:2
+  Implotlegendflagstypedef_520095422 = enumimplotlegendflags_520095421 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:139:2
+  Implotmousetextflagstypedef_520095426 = enumimplotmousetextflags_520095425 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:145:2
+  Implotdragtoolflagstypedef_520095430 = enumimplotdragtoolflags_520095429 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:152:2
+  Implotcolormapscaleflagstypedef_520095434 = enumimplotcolormapscaleflags_520095433 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:158:2
+  Implotitemflagstypedef_520095438 = enumimplotitemflags_520095437 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:163:2
+  Implotlineflagstypedef_520095442 = enumimplotlineflags_520095441 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:171:2
+  Implotscatterflagstypedef_520095446 = enumimplotscatterflags_520095445 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:175:2
+  Implotstairsflagstypedef_520095450 = enumimplotstairsflags_520095449 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:180:2
+  Implotshadedflagstypedef_520095454 = enumimplotshadedflags_520095453 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:183:2
+  Implotbarsflagstypedef_520095458 = enumimplotbarsflags_520095457 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:187:2
+  Implotbargroupsflagstypedef_520095462 = enumimplotbargroupsflags_520095461 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:192:2
+  Imploterrorbarsflagstypedef_520095466 = enumimploterrorbarsflags_520095465 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:196:2
+  Implotstemsflagstypedef_520095470 = enumimplotstemsflags_520095469 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:200:2
+  Implotinflinesflagstypedef_520095474 = enumimplotinflinesflags_520095473 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:204:2
+  Implotpiechartflagstypedef_520095478 = enumimplotpiechartflags_520095477 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:208:2
+  Implotheatmapflagstypedef_520095482 = enumimplotheatmapflags_520095481 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:212:2
+  Implothistogramflagstypedef_520095486 = enumimplothistogramflags_520095485 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:220:2
+  Implotdigitalflagstypedef_520095490 = enumimplotdigitalflags_520095489 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:223:2
+  Implotimageflagstypedef_520095494 = enumimplotimageflags_520095493 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:226:2
+  Implottextflagstypedef_520095498 = enumimplottextflags_520095497 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:230:2
+  Implotdummyflagstypedef_520095502 = enumimplotdummyflags_520095501 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:233:2
+  Implotcondtypedef_520095506 = enumimplotcond_520095505 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:238:2
+  Implotcoltypedef_520095510 = enumimplotcol_520095509 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:262:2
+  Implotstylevartypedef_520095514 = enumimplotstylevar_520095513 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:292:2
+  Implotscaletypedef_520095518 = enumimplotscale_520095517 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:298:2
+  Implotmarkertypedef_520095522 = enumimplotmarker_520095521 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:312:2
+  Implotcolormaptypedef_520095526 = enumimplotcolormap_520095525 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:330:2
+  Implotlocationtypedef_520095530 = enumimplotlocation_520095529 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:341:2
+  Implotbintypedef_520095534 = enumimplotbin_520095533 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:347:2
+  Implotpoint_520095536 = structimplotpoint_520095539 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:348:28
   structimplotpoint_520095538 {.pure, inheritable, bycopy.} = object
-    x*: cdouble              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:349:8
+    x*: cdouble              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:349:8
     y*: cdouble
 
-  Implotrange_520095540 = structimplotrange_520095543 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:353:28
+  Implotrange_520095540 = structimplotrange_520095543 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:353:28
   structimplotrange_520095542 {.pure, inheritable, bycopy.} = object
-    Min*: cdouble            ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:354:8
+    Min*: cdouble            ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:354:8
     Max*: cdouble
 
-  Implotrect_520095544 = structimplotrect_520095547 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:358:27
+  Implotrect_520095544 = structimplotrect_520095547 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:358:27
   structimplotrect_520095546 {.pure, inheritable, bycopy.} = object
-    X*: Implotrange_520095541 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:359:8
+    X*: Implotrange_520095541 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:359:8
     Y*: Implotrange_520095541
 
-  Implotstyle_520095548 = structimplotstyle_520095551 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:363:28
+  Implotstyle_520095548 = structimplotstyle_520095551 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:363:28
   structimplotstyle_520095550 {.pure, inheritable, bycopy.} = object
-    Lineweight*: cfloat      ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:364:8
+    Lineweight*: cfloat      ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:364:8
     Marker*: cint
     Markersize*: cfloat
     Markerweight*: cfloat
@@ -4372,9 +4372,9 @@ type
     Useiso8601*: bool
     Use24hourclock*: bool
 
-  Implotinputmap_520095552 = structimplotinputmap_520095555 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:399:31
+  Implotinputmap_520095552 = structimplotinputmap_520095555 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:399:31
   structimplotinputmap_520095554 {.pure, inheritable, bycopy.} = object
-    Pan*: Imguimousebutton_520094409 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:400:8
+    Pan*: Imguimousebutton_520094409 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:400:8
     Panmod*: cint
     Fit*: Imguimousebutton_520094409
     Select*: Imguimousebutton_520094409
@@ -4388,36 +4388,36 @@ type
     Zoomrate*: cfloat
 
   Implotformatter_520095556 = proc (a0: cdouble; a1: cstring; a2: cint;
-                                    a3: pointer): cint {.cdecl.} ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:415:15
+                                    a3: pointer): cint {.cdecl.} ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:415:15
   Implotgetter_520095558 = proc (a0: cint; a1: pointer): Implotpoint_520095537 {.
-      cdecl.}                ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:416:23
-  Implottransform_520095560 = proc (a0: cdouble; a1: pointer): cdouble {.cdecl.} ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:417:18
-  Implottimeunit_520095562 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:427:13
-  Implotdatefmt_520095564 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:428:13
-  Implottimefmt_520095566 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:429:13
-  Implottimeunittypedef_520095570 = enumimplottimeunit_520095569 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:440:2
-  Implotdatefmttypedef_520095574 = enumimplotdatefmt_520095573 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:448:2
-  Implottimefmttypedef_520095578 = enumimplottimefmt_520095577 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:460:2
+      cdecl.}                ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:416:23
+  Implottransform_520095560 = proc (a0: cdouble; a1: pointer): cdouble {.cdecl.} ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:417:18
+  Implottimeunit_520095562 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:427:13
+  Implotdatefmt_520095564 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:428:13
+  Implottimefmt_520095566 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:429:13
+  Implottimeunittypedef_520095570 = enumimplottimeunit_520095569 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:440:2
+  Implotdatefmttypedef_520095574 = enumimplotdatefmt_520095573 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:448:2
+  Implottimefmttypedef_520095578 = enumimplottimefmt_520095577 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:460:2
   Implotlocator_520095580 = proc (a0: ptr Implotticker_520095307;
                                   a1: Implotrange_520095541; a2: cfloat;
                                   a3: bool; a4: Implotformatter_520095557;
-                                  a5: pointer): void {.cdecl.} ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:461:16
-  Implotdatetimespec_520095582 = structimplotdatetimespec_520095585 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:462:35
+                                  a5: pointer): void {.cdecl.} ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:461:16
+  Implotdatetimespec_520095582 = structimplotdatetimespec_520095585 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:462:35
   structimplotdatetimespec_520095584 {.pure, inheritable, bycopy.} = object
-    Date*: Implotdatefmt_520095565 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:463:8
+    Date*: Implotdatefmt_520095565 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:463:8
     Time*: Implottimefmt_520095567
     Useiso8601*: bool
     Use24hourclock*: bool
 
-  Implottime_520095586 = structimplottime_520095589 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:470:27
+  Implottime_520095586 = structimplottime_520095589 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:470:27
   structimplottime_520095588 {.pure, inheritable, bycopy.} = object
-    S*: timet_520095591      ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:471:8
+    S*: timet_520095591      ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:471:8
     Us*: cint
 
   timet_520095590 = compilertimet_520095768 ## Generated based on /usr/include/bits/types/time_t.h:10:18
-  Implotcolormapdata_520095592 = structimplotcolormapdata_520095595 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:476:35
+  Implotcolormapdata_520095592 = structimplotcolormapdata_520095595 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:476:35
   structimplotcolormapdata_520095594 {.pure, inheritable, bycopy.} = object
-    Keys*: Imvectorimu32_520094715 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:479:8
+    Keys*: Imvectorimu32_520094715 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:479:8
     Keycounts*: Imvectorint_520094833
     Keyoffsets*: Imvectorint_520094833
     Tables*: Imvectorimu32_520094715
@@ -4430,96 +4430,96 @@ type
     Count*: cint
 
   structimvectorbool_520095596 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:477:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:477:16
     Capacity*: cint
     Data*: ptr bool
 
-  Imvectorbool_520095598 = structimvectorbool_520095597 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:477:66
-  Implotpointerror_520095600 = structimplotpointerror_520095603 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:493:33
+  Imvectorbool_520095598 = structimvectorbool_520095597 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:477:66
+  Implotpointerror_520095600 = structimplotpointerror_520095603 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:493:33
   structimplotpointerror_520095602 {.pure, inheritable, bycopy.} = object
-    X*: cdouble              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:494:8
+    X*: cdouble              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:494:8
     Y*: cdouble
     Neg*: cdouble
     Pos*: cdouble
 
-  Implotannotation_520095604 = structimplotannotation_520095607 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:498:33
+  Implotannotation_520095604 = structimplotannotation_520095607 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:498:33
   structimplotannotation_520095606 {.pure, inheritable, bycopy.} = object
-    Pos*: Imvec2_520094507   ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:499:8
+    Pos*: Imvec2_520094507   ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:499:8
     Offset*: Imvec2_520094507
     Colorbg*: Imu32_520094487
     Colorfg*: Imu32_520094487
     Textoffset*: cint
     Clamp*: bool
 
-  Implotannotationcollection_520095608 = structimplotannotationcollection_520095611 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:508:43
+  Implotannotationcollection_520095608 = structimplotannotationcollection_520095611 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:508:43
   structimplotannotationcollection_520095610 {.pure, inheritable, bycopy.} = object
-    Annotations*: Imvectorimplotannotation_520095615 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:511:8
+    Annotations*: Imvectorimplotannotation_520095615 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:511:8
     Textbuffer*: Imguitextbuffer_520094225
     Size*: cint
 
   structimvectorimplotannotation_520095612 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:509:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:509:16
     Capacity*: cint
     Data*: ptr Implotannotation_520095605
 
-  Imvectorimplotannotation_520095614 = structimvectorimplotannotation_520095613 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:509:90
-  Implottag_520095616 = structimplottag_520095619 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:517:26
+  Imvectorimplotannotation_520095614 = structimvectorimplotannotation_520095613 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:509:90
+  Implottag_520095616 = structimplottag_520095619 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:517:26
   structimplottag_520095618 {.pure, inheritable, bycopy.} = object
-    Axis*: Imaxis_520095339  ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:518:8
+    Axis*: Imaxis_520095339  ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:518:8
     Value*: cdouble
     Colorbg*: Imu32_520094487
     Colorfg*: Imu32_520094487
     Textoffset*: cint
 
-  Implottagcollection_520095620 = structimplottagcollection_520095623 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:526:36
+  Implottagcollection_520095620 = structimplottagcollection_520095623 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:526:36
   structimplottagcollection_520095622 {.pure, inheritable, bycopy.} = object
-    Tags*: Imvectorimplottag_520095627 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:529:8
+    Tags*: Imvectorimplottag_520095627 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:529:8
     Textbuffer*: Imguitextbuffer_520094225
     Size*: cint
 
   structimvectorimplottag_520095624 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:527:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:527:16
     Capacity*: cint
     Data*: ptr Implottag_520095617
 
-  Imvectorimplottag_520095626 = structimvectorimplottag_520095625 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:527:76
+  Imvectorimplottag_520095626 = structimvectorimplottag_520095625 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:527:76
   structimvectorimplottick_520095628 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:546:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:546:16
     Capacity*: cint
     Data*: ptr Implottick_520095281
 
-  Imvectorimplottick_520095630 = structimvectorimplottick_520095629 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:546:78
-  Implotalignmentdata_520095632 = structimplotalignmentdata_520095635 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:596:36
+  Imvectorimplottick_520095630 = structimvectorimplottick_520095629 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:546:78
+  Implotalignmentdata_520095632 = structimplotalignmentdata_520095635 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:596:36
   structimplotalignmentdata_520095634 {.pure, inheritable, bycopy.} = object
-    Vertical*: bool          ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:597:8
+    Vertical*: bool          ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:597:8
     Pada*: cfloat
     Padb*: cfloat
     Padamax*: cfloat
     Padbmax*: cfloat
 
-  Implotitemgroup_520095636 = structimplotitemgroup_520095639 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:628:32
+  Implotitemgroup_520095636 = structimplotitemgroup_520095639 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:628:32
   structimplotitemgroup_520095638 {.pure, inheritable, bycopy.} = object
-    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:633:8
+    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:633:8
     Legend*: Implotlegend_520095295
     Itempool*: Impoolimplotitem_520095647
     Colormapidx*: cint
 
   structimvectorimplotitem_520095640 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:629:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:629:16
     Capacity*: cint
     Data*: ptr Implotitem_520095291
 
-  Imvectorimplotitem_520095642 = structimvectorimplotitem_520095641 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:629:78
+  Imvectorimplotitem_520095642 = structimvectorimplotitem_520095641 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:629:78
   structimpoolimplotitem_520095644 {.pure, inheritable, bycopy.} = object
-    Buf*: Imvectorimplotitem_520095643 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:631:16
+    Buf*: Imvectorimplotitem_520095643 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:631:16
     Map*: Imguistorage_520094209
     Freeidx*: Impoolidx_520094825
     Alivecount*: Impoolidx_520094825
 
-  Impoolimplotitem_520095646 = structimpoolimplotitem_520095645 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:631:117
-  Implotsubplot_520095648 = structimplotsubplot_520095651 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:669:30
+  Impoolimplotitem_520095646 = structimpoolimplotitem_520095645 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:631:117
+  Implotsubplot_520095648 = structimplotsubplot_520095651 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:669:30
   structimplotsubplot_520095650 {.pure, inheritable, bycopy.} = object
-    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:674:8
+    Id*: Imguiid_520094475   ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:674:8
     Flags*: Implotsubplotflags_520095345
     Previousflags*: Implotsubplotflags_520095345
     Items*: Implotitemgroup_520095637
@@ -4540,20 +4540,20 @@ type
     Hastitle*: bool
 
   structimvectorimplotalignmentdata_520095652 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:670:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:670:16
     Capacity*: cint
     Data*: ptr Implotalignmentdata_520095633
 
-  Imvectorimplotalignmentdata_520095654 = structimvectorimplotalignmentdata_520095653 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:670:96
+  Imvectorimplotalignmentdata_520095654 = structimvectorimplotalignmentdata_520095653 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:670:96
   structimvectorimplotrange_520095656 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:672:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:672:16
     Capacity*: cint
     Data*: ptr Implotrange_520095541
 
-  Imvectorimplotrange_520095658 = structimvectorimplotrange_520095657 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:672:80
-  Implotnextitemdata_520095660 = structimplotnextitemdata_520095663 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:705:35
+  Imvectorimplotrange_520095658 = structimvectorimplotrange_520095657 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:672:80
+  Implotnextitemdata_520095660 = structimplotnextitemdata_520095663 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:705:35
   structimplotnextitemdata_520095662 {.pure, inheritable, bycopy.} = object
-    Colors*: array[5'i64, Imvec4_520094511] ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:706:8
+    Colors*: array[5'i64, Imvec4_520094511] ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:706:8
     Lineweight*: cfloat
     Marker*: Implotmarker_520095397
     Markersize*: cfloat
@@ -4572,95 +4572,95 @@ type
     Hiddencond*: Implotcond_520095389
 
   structimvectorimplotplot_520095664 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:726:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:726:16
     Capacity*: cint
     Data*: ptr Implotplot_520095299
 
-  Imvectorimplotplot_520095666 = structimvectorimplotplot_520095665 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:726:78
+  Imvectorimplotplot_520095666 = structimvectorimplotplot_520095665 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:726:78
   structimpoolimplotplot_520095668 {.pure, inheritable, bycopy.} = object
-    Buf*: Imvectorimplotplot_520095667 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:728:16
+    Buf*: Imvectorimplotplot_520095667 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:728:16
     Map*: Imguistorage_520094209
     Freeidx*: Impoolidx_520094825
     Alivecount*: Impoolidx_520094825
 
-  Impoolimplotplot_520095670 = structimpoolimplotplot_520095669 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:728:117
+  Impoolimplotplot_520095670 = structimpoolimplotplot_520095669 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:728:117
   structimvectorimplotsubplot_520095672 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:730:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:730:16
     Capacity*: cint
     Data*: ptr Implotsubplot_520095649
 
-  Imvectorimplotsubplot_520095674 = structimvectorimplotsubplot_520095673 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:730:84
+  Imvectorimplotsubplot_520095674 = structimvectorimplotsubplot_520095673 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:730:84
   structimpoolimplotsubplot_520095676 {.pure, inheritable, bycopy.} = object
-    Buf*: Imvectorimplotsubplot_520095675 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:732:16
+    Buf*: Imvectorimplotsubplot_520095675 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:732:16
     Map*: Imguistorage_520094209
     Freeidx*: Impoolidx_520094825
     Alivecount*: Impoolidx_520094825
 
-  Impoolimplotsubplot_520095678 = structimpoolimplotsubplot_520095677 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:732:123
+  Impoolimplotsubplot_520095678 = structimpoolimplotsubplot_520095677 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:732:123
   structimvectorimplotcolormap_520095680 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:734:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:734:16
     Capacity*: cint
     Data*: ptr Implotcolormap_520095399
 
-  Imvectorimplotcolormap_520095682 = structimvectorimplotcolormap_520095681 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:734:86
+  Imvectorimplotcolormap_520095682 = structimvectorimplotcolormap_520095681 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:734:86
   structimvectordouble_520095684 {.pure, inheritable, bycopy.} = object
-    Size*: cint              ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:736:16
+    Size*: cint              ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:736:16
     Capacity*: cint
     Data*: ptr cdouble
 
-  Imvectordouble_520095686 = structimvectordouble_520095685 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:736:70
+  Imvectordouble_520095686 = structimvectordouble_520095685 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:736:70
   structimpoolimplotalignmentdata_520095688 {.pure, inheritable, bycopy.} = object
-    Buf*: Imvectorimplotalignmentdata_520095655 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:738:16
+    Buf*: Imvectorimplotalignmentdata_520095655 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:738:16
     Map*: Imguistorage_520094209
     Freeidx*: Impoolidx_520094825
     Alivecount*: Impoolidx_520094825
 
-  Impoolimplotalignmentdata_520095690 = structimpoolimplotalignmentdata_520095689 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:738:135
-  Formattertimedata_520095692 = structformattertimedata_520095695 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:773:36
+  Impoolimplotalignmentdata_520095690 = structimpoolimplotalignmentdata_520095689 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:738:135
+  Formattertimedata_520095692 = structformattertimedata_520095695 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:773:36
   structformattertimedata_520095694 {.pure, inheritable, bycopy.} = object
-    Time*: Implottime_520095587 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:774:8
+    Time*: Implottime_520095587 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:774:8
     Spec*: Implotdatetimespec_520095583
     Userformatter*: Implotformatter_520095557
     Userformatterdata*: pointer
 
   Implotpointgetter_520095696 = proc (a0: pointer; a1: cint; a2: ptr Implotpoint_520095537): pointer {.
-      cdecl.}                ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimplot/cimplot.h:786:17
-  Imnodescontext_520095698 = structimnodescontext ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:12:31
-  Imnodeseditorcontext_520095700 = structimnodeseditorcontext ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:13:37
-  Imnodescol_520095702 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:14:13
-  Imnodesstylevar_520095704 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:15:13
-  Imnodesstyleflags_520095706 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:16:13
-  Imnodespinshape_520095708 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:17:13
-  Imnodesattributeflags_520095710 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:18:13
-  Imnodesminimaplocation_520095712 = cint ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:19:13
-  Imnodescoltypedef_520095716 = enumimnodescol_520095715 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:51:2
-  Imnodesstylevartypedef_520095720 = enumimnodesstylevar_520095719 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:69:2
-  Imnodesstyleflagstypedef_520095724 = enumimnodesstyleflags_520095723 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:76:2
-  Imnodespinshapetypedef_520095728 = enumimnodespinshape_520095727 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:84:2
-  Imnodesattributeflagstypedef_520095732 = enumimnodesattributeflags_520095731 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:89:2
-  Imnodesio_520095734 = structimnodesio_520095737 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:90:26
+      cdecl.}                ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimplot/cimplot.h:786:17
+  Imnodescontext_520095698 = structimnodescontext ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:12:31
+  Imnodeseditorcontext_520095700 = structimnodeseditorcontext ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:13:37
+  Imnodescol_520095702 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:14:13
+  Imnodesstylevar_520095704 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:15:13
+  Imnodesstyleflags_520095706 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:16:13
+  Imnodespinshape_520095708 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:17:13
+  Imnodesattributeflags_520095710 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:18:13
+  Imnodesminimaplocation_520095712 = cint ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:19:13
+  Imnodescoltypedef_520095716 = enumimnodescol_520095715 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:51:2
+  Imnodesstylevartypedef_520095720 = enumimnodesstylevar_520095719 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:69:2
+  Imnodesstyleflagstypedef_520095724 = enumimnodesstyleflags_520095723 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:76:2
+  Imnodespinshapetypedef_520095728 = enumimnodespinshape_520095727 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:84:2
+  Imnodesattributeflagstypedef_520095732 = enumimnodesattributeflags_520095731 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:89:2
+  Imnodesio_520095734 = structimnodesio_520095737 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:90:26
   structimnodesio_520095736 {.pure, inheritable, bycopy.} = object
-    Emulatethreebuttonmouse*: Emulatethreebuttonmouse_520095741 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:109:8
+    Emulatethreebuttonmouse*: Emulatethreebuttonmouse_520095741 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:109:8
     Linkdetachwithmodifierclick*: Linkdetachwithmodifierclick_520095745
     Multipleselectmodifier*: Multipleselectmodifier_520095749
     Altmousebutton*: cint
     Autopanningspeed*: cfloat
 
   structemulatethreebuttonmouse_520095738 {.pure, inheritable, bycopy.} = object
-    Modifier*: ptr bool      ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:91:8
+    Modifier*: ptr bool      ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:91:8
   
-  Emulatethreebuttonmouse_520095740 = structemulatethreebuttonmouse_520095739 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:117:40
+  Emulatethreebuttonmouse_520095740 = structemulatethreebuttonmouse_520095739 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:117:40
   structlinkdetachwithmodifierclick_520095742 {.pure, inheritable, bycopy.} = object
-    Modifier*: ptr bool      ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:97:8
+    Modifier*: ptr bool      ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:97:8
   
-  Linkdetachwithmodifierclick_520095744 = structlinkdetachwithmodifierclick_520095743 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:118:44
+  Linkdetachwithmodifierclick_520095744 = structlinkdetachwithmodifierclick_520095743 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:118:44
   structmultipleselectmodifier_520095746 {.pure, inheritable, bycopy.} = object
-    Modifier*: ptr bool      ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:103:8
+    Modifier*: ptr bool      ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:103:8
   
-  Multipleselectmodifier_520095748 = structmultipleselectmodifier_520095747 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:119:39
-  Imnodesstyle_520095750 = structimnodesstyle_520095753 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:120:29
+  Multipleselectmodifier_520095748 = structmultipleselectmodifier_520095747 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:119:39
+  Imnodesstyle_520095750 = structimnodesstyle_520095753 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:120:29
   structimnodesstyle_520095752 {.pure, inheritable, bycopy.} = object
-    Gridspacing*: cfloat     ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:121:8
+    Gridspacing*: cfloat     ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:121:8
     Nodecornerrounding*: cfloat
     Nodepadding*: Imvec2_520094507
     Nodeborderthickness*: cfloat
@@ -4678,10 +4678,10 @@ type
     Flags*: Imnodesstyleflags_520095707
     Colors*: array[29'i64, cuint]
 
-  Imnodesminimaplocationtypedef_520095756 = enumimnodesminimaplocation_520095755 ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:146:2
+  Imnodesminimaplocationtypedef_520095756 = enumimnodesminimaplocation_520095755 ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:146:2
   Imnodesminimapnodehoveringcallback_520095758 = proc (a0: cint; a1: pointer): void {.
-      cdecl.}                ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:151:16
-  Imnodesminimapnodehoveringcallbackuserdata_520095760 = pointer ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimnodes/cimnodes.h:152:15
+      cdecl.}                ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:151:16
+  Imnodesminimapnodehoveringcallbackuserdata_520095760 = pointer ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimnodes/cimnodes.h:152:15
   structiofile_520095762 {.pure, inheritable, bycopy.} = object
     internalflags*: cint     ## Generated based on /usr/include/bits/types/struct_FILE.h:49:8
     internalioreadptr*: cstring
@@ -13095,22 +13095,22 @@ else:
 when not declared(Extern):
   when extern is typedesc:
     type
-      Extern* = extern       ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:28:13
+      Extern* = extern       ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:28:13
   else:
     when extern is static:
       const
-        Extern* = extern     ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:28:13
+        Extern* = extern     ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:28:13
     else:
-      let Extern* = extern   ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:28:13
+      let Extern* = extern   ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:28:13
 else:
   static :
     hint("Declaration of " & "Extern" & " already exists, not redeclaring")
 when not declared(Imguihasdock):
   when 1 is static:
     const
-      ImGui_HasDock* = 1      ## Generated based on /home/nick/prog/psx/imguin/src/imguin/Private/cimgui/cimgui.h:3216:9
+      ImGui_HasDock* = 1      ## Generated based on /home/nick/prog/imguin/src/imguin/Private/cimgui/cimgui.h:3216:9
   else:
-    let Imguihasdock* = 1    ## Generated based on /home/nick/prog/psx/imguin/src/imguin/private/cimgui/cimgui.h:3216:9
+    let Imguihasdock* = 1    ## Generated based on /home/nick/prog/imguin/src/imguin/private/cimgui/cimgui.h:3216:9
 else:
   static :
     hint("Declaration of " & "Imguihasdock" & " already exists, not redeclaring")
